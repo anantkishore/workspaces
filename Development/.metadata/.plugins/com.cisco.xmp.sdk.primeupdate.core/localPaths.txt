@@ -1,0 +1,3 @@
+lib/ifm/ifm_apic_service_impl-*\.jar
+xmp_inventory/xde-home/packages/standard/ProvisioningDriver-.\*.xar
+lib/xmp-third-party/drools-core-.*\.jar

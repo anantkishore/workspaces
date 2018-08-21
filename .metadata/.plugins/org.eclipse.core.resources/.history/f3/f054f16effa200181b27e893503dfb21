@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.service;
+
+/**
+ * @author i351596
+ *
+ */
+public class CommentService {
+	
+	
+	/**
+	 * 
+	 */
+	public CommentService() {
+	}
+	
+	
+
+}

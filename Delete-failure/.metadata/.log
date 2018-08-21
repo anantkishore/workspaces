@@ -1,0 +1,1897 @@
+!SESSION 2017-04-12 12:26:47.800 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64
+
+This is a continuation of log file /Users/anakisho/Workspaces/Delete-failure/.metadata/.bak_0.log
+Created Time: 2017-04-12 17:26:34.159
+
+!ENTRY org.eclipse.ui.navigator 4 2 2017-04-12 17:26:34.159
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:74)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:537)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:222)
+	at com.cisco.xmp.sdk.explorer.ui.XMPExplorer.createPartControl(XMPExplorer.java:247)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4781)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$12.widgetSelected(PerspectiveSwitcher.java:590)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.NullPointerException
+	at com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider.<init>(FDLabelProvider.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	... 138 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2017-04-12 17:26:34.164
+!MESSAGE Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+!STACK 0
+java.lang.NullPointerException
+	at com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider.<init>(FDLabelProvider.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:74)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:537)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:222)
+	at com.cisco.xmp.sdk.explorer.ui.XMPExplorer.createPartControl(XMPExplorer.java:247)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4781)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$12.widgetSelected(PerspectiveSwitcher.java:590)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2017-04-12 17:26:34.166
+!MESSAGE Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+!STACK 0
+java.lang.NullPointerException
+	at com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider.<init>(FDLabelProvider.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:74)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:537)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:222)
+	at com.cisco.xmp.sdk.explorer.ui.XMPExplorer.createPartControl(XMPExplorer.java:247)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4781)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$12.widgetSelected(PerspectiveSwitcher.java:590)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2017-04-12 17:26:34.260
+!MESSAGE Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:74)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:537)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:222)
+	at com.cisco.xmp.sdk.explorer.ui.XMPExplorer.createPartControl(XMPExplorer.java:247)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4781)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$12.widgetSelected(PerspectiveSwitcher.java:590)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.NullPointerException
+	at com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider.<init>(FDLabelProvider.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	... 138 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2017-04-12 17:26:34.263
+!MESSAGE Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+!STACK 0
+java.lang.NullPointerException
+	at com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider.<init>(FDLabelProvider.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:74)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:537)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:222)
+	at com.cisco.xmp.sdk.explorer.ui.XMPExplorer.createPartControl(XMPExplorer.java:247)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4781)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$12.widgetSelected(PerspectiveSwitcher.java:590)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2017-04-12 17:26:34.265
+!MESSAGE Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:194)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:74)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:537)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:222)
+	at com.cisco.xmp.sdk.explorer.ui.XMPExplorer.createPartControl(XMPExplorer.java:247)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4781)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$12.widgetSelected(PerspectiveSwitcher.java:590)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.NullPointerException
+	at com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider.<init>(FDLabelProvider.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	... 138 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2017-04-12 17:26:34.274
+!MESSAGE Plug-in "com.cisco.xmp.sdk.fd.ui" was unable to instantiate class "com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider".
+!STACK 0
+java.lang.NullPointerException
+	at com.cisco.xmp.sdk.fd.ui.internal.explorer.FDLabelProvider.<init>(FDLabelProvider.java:32)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at java.lang.Class.newInstance(Class.java:383)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:199)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:74)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:537)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:222)
+	at com.cisco.xmp.sdk.explorer.ui.XMPExplorer.createPartControl(XMPExplorer.java:247)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:898)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:879)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:121)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:345)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:525)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:509)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:971)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:151)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:654)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:717)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:711)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:695)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4781)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)
+	at org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)
+	at org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$12.widgetSelected(PerspectiveSwitcher.java:590)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SESSION 2017-04-12 17:27:41.209 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/anakisho/Workspaces/Delete-failure
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-12 17:27:42.982
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-12 17:27:42.983
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-04-12 17:27:45.386
+!MESSAGE Both 'com.cisco.xmp.sdk.contrib.decap' and 'com.cisco.xmp.sdk.contrib.dynamicAP' register an extension parser for 'xml'
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-12 17:27:50.809
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-04-12 17:27:55.085
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-04-12 17:27:55.085
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.ui 2 0 2017-04-12 17:28:25.927
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.cisco.nm.workflowbuilder' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-12 17:29:01.453
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-12 17:29:01.456
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY com.smartbear.collaborator 2 0 2017-04-12 17:50:39.256
+!MESSAGE Could not connect to server to run Refresh Action Items
+!STACK 0
+com.smartbear.ccollab.client.CollabClientServerConnectivityException: java.net.UnknownHostException: ccollab.cisco.com
+	at com.smartbear.collaborator.ui.ide.jobs.ClientActionItemsRefreshJob.loadActionItems(ClientActionItemsRefreshJob.java:63)
+	at com.smartbear.collaborator.jobs.AbstractActionItemsRefreshJob.doRun(AbstractActionItemsRefreshJob.java:50)
+	at com.smartbear.collaborator.ui.ide.jobs.ClientActionItemsRefreshJob.doRun(ClientActionItemsRefreshJob.java:70)
+	at com.smartbear.collaborator.ui.ide.jobs.ClientActionItemsRefreshJob.doRun(ClientActionItemsRefreshJob.java:32)
+	at com.smartbear.collaborator.jobs.RefreshJob.run(RefreshJob.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.cisco.xmp.sdk.core 4 0 2017-04-13 14:35:35.307
+!MESSAGE Maven execution failed for file /Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/xmpxde.xml. See details or log for more information.
+!STACK 0
+java.lang.Throwable: Errors were encountered during the build:
+[INFO] Scanning for projects...
+[INFO] Downloading: https://repo.maven.apache.org/maven2/com/cisco/lumos/install/cepnm_parent_pom/3.0.2/cepnm_parent_pom-3.0.2.pom
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT (/Users/anakisho/git/pf-content-latest/base-content/pom.xml) points at com.cisco.nms.release:build-release-pf-content instead of com.cisco.lumos.install:cepnm_parent_pom, please verify your project structure @ com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT, /Users/anakisho/git/pf-content-latest/base-content/pom.xml, line 4, column 11
+[FATAL] Non-resolvable parent POM for com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT: Could not find artifact com.cisco.lumos.install:cepnm_parent_pom:pom:3.0.2 in central (https://repo.maven.apache.org/maven2) and 'parent.relativePath' points at wrong local POM @ com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT, /Users/anakisho/git/pf-content-latest/base-content/pom.xml, line 4, column 11
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.cisco.prime.components:L3LinkProvisioning:5.10.10-SNAPSHOT (/Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/xmpxde.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT: Could not find artifact com.cisco.lumos.install:cepnm_parent_pom:pom:3.0.2 in central (https://repo.maven.apache.org/maven2) and 'parent.relativePath' points at wrong local POM @ com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT, /Users/anakisho/git/pf-content-latest/base-content/pom.xml, line 4, column 11 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+	at com.cisco.xmp.sdk.core.utils.MavenUtils.runMaven(MavenUtils.java:225)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:423)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:329)
+	at com.cisco.xmp.sdk.fd.ui.internal.editors.common.MavenHyperlinkAdpater$1.runInWorkspace(MavenHyperlinkAdpater.java:57)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.cisco.xmp.sdk.core 4 0 2017-04-13 14:36:28.214
+!MESSAGE Maven execution failed for file /Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/xmpxde.xml. See details or log for more information.
+!STACK 0
+java.lang.Throwable: Errors were encountered during the build:
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[WARNING] 'parent.relativePath' of POM com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT (/Users/anakisho/git/pf-content-latest/base-content/pom.xml) points at com.cisco.nms.release:build-release-pf-content instead of com.cisco.lumos.install:cepnm_parent_pom, please verify your project structure @ com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT, /Users/anakisho/git/pf-content-latest/base-content/pom.xml, line 4, column 11
+[FATAL] Non-resolvable parent POM for com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT: Failure to find com.cisco.lumos.install:cepnm_parent_pom:pom:3.0.2 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT, /Users/anakisho/git/pf-content-latest/base-content/pom.xml, line 4, column 11
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.cisco.prime.components:L3LinkProvisioning:5.10.10-SNAPSHOT (/Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/xmpxde.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT: Failure to find com.cisco.lumos.install:cepnm_parent_pom:pom:3.0.2 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT, /Users/anakisho/git/pf-content-latest/base-content/pom.xml, line 4, column 11 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+	at com.cisco.xmp.sdk.core.utils.MavenUtils.runMaven(MavenUtils.java:225)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:423)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:329)
+	at com.cisco.xmp.sdk.fd.ui.internal.editors.common.MavenHyperlinkAdpater$1.runInWorkspace(MavenHyperlinkAdpater.java:57)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 0 2017-04-13 14:41:55.543
+!MESSAGE DM IndexesUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 14:41:55.546
+!MESSAGE FDCR on IndexUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 0 2017-04-13 14:41:57.258
+!MESSAGE DM IndexesUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 14:41:57.258
+!MESSAGE FDCR on IndexUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 0 2017-04-13 14:41:57.267
+!MESSAGE DM IndexesUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 14:41:57.267
+!MESSAGE FDCR on IndexUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 0 2017-04-13 14:41:57.290
+!MESSAGE DM IndexesUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 14:41:57.291
+!MESSAGE FDCR on IndexUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 0 2017-04-13 14:41:57.302
+!MESSAGE DM IndexesUpdated
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 14:41:57.302
+!MESSAGE FDCR on IndexUpdated
+
+!ENTRY com.cisco.xmp.sdk.core 4 0 2017-04-13 14:45:19.641
+!MESSAGE Maven execution failed for file /Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/xmpxde.xml. See details or log for more information.
+!STACK 0
+java.lang.Throwable: Errors were encountered during the build:
+[INFO] Scanning for projects...
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/cisco/lumos/install/cepnm_parent_pom/3.0.2/cepnm_parent_pom-3.0.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/cisco/lumos/install/cepnm_parent_pom/3.0.2/cepnm_parent_pom-3.0.2.pom (4 KB at 2.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.pom (2 KB at 3.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-providers/1.0-beta-2/wagon-providers-1.0-beta-2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-providers/1.0-beta-2/wagon-providers-1.0-beta-2.pom (2 KB at 3.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom (6 KB at 6.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/4/maven-parent-4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/4/maven-parent-4.pom (10 KB at 11.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/3/apache-3.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/3/apache-3.pom (4 KB at 5.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/slide/slide-webdavlib/2.1/slide-webdavlib-2.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/slide/slide-webdavlib/2.1/slide-webdavlib-2.1.pom (648 B at 1.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-httpclient/commons-httpclient/2.0.2/commons-httpclient-2.0.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-httpclient/commons-httpclient/2.0.2/commons-httpclient-2.0.2.pom (7 KB at 11.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom (866 B at 1.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/jdom/jdom/1.0/jdom-1.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/jdom/jdom/1.0/jdom-1.0.pom (2 KB at 2.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/de/zeigermann/xml/xml-im-exporter/1.1/xml-im-exporter-1.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/de/zeigermann/xml/xml-im-exporter/1.1/xml-im-exporter-1.1.pom (248 B at 0.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom (6 KB at 11.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom (680 B at 1.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom (7 KB at 10.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.jar (17 KB at 0.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/slide/slide-webdavlib/2.1/slide-webdavlib-2.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/slide/slide-webdavlib/2.1/slide-webdavlib-2.1.jar (169 KB at 32.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-httpclient/commons-httpclient/2.0.2/commons-httpclient-2.0.2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-httpclient/commons-httpclient/2.0.2/commons-httpclient-2.0.2.jar (221 KB at 66.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/jdom/jdom/1.0/jdom-1.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/jdom/jdom/1.0/jdom-1.0.jar (150 KB at 142.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/de/zeigermann/xml/xml-im-exporter/1.1/xml-im-exporter-1.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/de/zeigermann/xml/xml-im-exporter/1.1/xml-im-exporter-1.1.jar (24 KB at 44.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar (38 KB at 62.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar (46 KB at 74.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar (160 KB at 157.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/cisco/xmp/sdk/xmp-maven-xar-plugin/1.0/xmp-maven-xar-plugin-1.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/cisco/xmp/sdk/xmp-maven-xar-plugin/1.0/xmp-maven-xar-plugin-1.0.pom (3 KB at 4.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom (12 KB at 22.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/9/maven-parent-9.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 KB at 45.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/4/apache-4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/4/apache-4.pom (5 KB at 9.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.pom (601 B at 1.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven/2.0/maven-2.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven/2.0/maven-2.0.pom (9 KB at 18.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/cisco/xmp/sdk/xmp-maven-xar-plugin/1.0/xmp-maven-xar-plugin-1.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/cisco/xmp/sdk/xmp-maven-xar-plugin/1.0/xmp-maven-xar-plugin-1.0.jar (13 KB at 13.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar (10 KB at 12.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar (165 KB at 112.4 KB/sec)
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.cisco.prime.components:L3LinkProvisioning:xar:5.10.10-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT (/Users/anakisho/git/pf-content-latest/base-content/pom.xml) points at com.cisco.nms.release:build-release-pf-content instead of com.cisco.lumos.install:cepnm_parent_pom, please verify your project structure @ com.cisco.prime.components:ce-content-parent:5.10.10-SNAPSHOT, /Users/anakisho/git/pf-content-latest/base-content/pom.xml, line 4, column 11
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building L3LinkProvisioning 5.10.10-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-install-plugin/maven-metadata.xml
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-install-plugin/maven-metadata.xml (623 B at 1.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom (7 KB at 10.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom (10 KB at 18.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/24/maven-parent-24.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/24/maven-parent-24.pom (37 KB at 33.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/14/apache-14.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/14/apache-14.pom (15 KB at 23.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar (33 KB at 47.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-resources-plugin/maven-metadata.xml
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-resources-plugin/maven-metadata.xml (812 B at 0.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom (7 KB at 14.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom (10 KB at 20.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/30/maven-parent-30.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/30/maven-parent-30.pom (41 KB at 42.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/18/apache-18.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/18/apache-18.pom (16 KB at 30.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar (31 KB at 43.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-jar-plugin/maven-metadata.xml
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-jar-plugin/maven-metadata.xml (743 B at 1.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.pom (7 KB at 11.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar (27 KB at 37.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-deploy-plugin/maven-metadata.xml
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-deploy-plugin/maven-metadata.xml (709 B at 1.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.pom (7 KB at 13.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+[WARNING] Checksum validation failed, no checksums available from the repository for http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar (34 KB at 29.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (4 KB at 4.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 KB at 14.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 KB at 34.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/10/apache-10.pom (15 KB at 28.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 KB at 35.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.pom (5 KB at 10.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/13/maven-plugins-13.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-plugins/13/maven-plugins-13.pom (12 KB at 22.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/11/maven-parent-11.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/11/maven-parent-11.pom (32 KB at 45.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/5/apache-5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/5/apache-5.pom (5 KB at 8.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/plugins/maven-source-plugin/2.1/maven-source-plugin-2.1.jar (24 KB at 50.0 KB/sec)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ L3LinkProvisioning ---
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom (2 KB at 2.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven/2.0.6/maven-2.0.6.pom (9 KB at 18.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/5/maven-parent-5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/5/maven-parent-5.pom (15 KB at 28.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4 KB at 8.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (9 KB at 17.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (9 KB at 18.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar (13 KB at 25.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (221 KB at 166.9 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ L3LinkProvisioning ---
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom (3 KB at 4.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven/3.0/maven-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven/3.0/maven-3.0.pom (22 KB at 45.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/15/maven-parent-15.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/15/maven-parent-15.pom (24 KB at 49.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/6/apache-6.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/6/apache-6.pom (13 KB at 27.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model/3.0/maven-model-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model/3.0/maven-model-3.0.pom (4 KB at 8.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom (4 KB at 6.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom (17 KB at 33.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom (2 KB at 3.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom (6 KB at 11.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom (4 KB at 6.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom (3 KB at 4.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom (2 KB at 2.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom (8 KB at 8.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/6/forge-parent-6.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/6/forge-parent-6.pom (11 KB at 15.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom (748 B at 1.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom (4 KB at 7.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom (22 KB at 28.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/17/spice-parent-17.pom (7 KB at 14.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 KB at 27.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom (4 KB at 7.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom (4 KB at 6.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom (6 KB at 11.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom (11 KB at 24.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-core/3.0/maven-core-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-core/3.0/maven-core-3.0.pom (7 KB at 12.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings/3.0/maven-settings-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings/3.0/maven-settings-3.0.pom (2 KB at 3.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.pom (3 KB at 4.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom (910 B at 1.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom (6 KB at 11.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom (17 KB at 20.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom (3 KB at 5.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/12/spice-parent-12.pom (7 KB at 14.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/forge/forge-parent/4/forge-parent-4.pom (9 KB at 16.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom (6 KB at 5.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom (9 KB at 10.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom (3 KB at 4.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.pom (2 KB at 3.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.pom (3 KB at 4.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.pom (3 KB at 5.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-api/1.7/aether-api-1.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-api/1.7/aether-api-1.7.pom (2 KB at 3.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-parent/1.7/aether-parent-1.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-parent/1.7/aether-parent-1.7.pom (8 KB at 16.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-util/1.7/aether-util-1.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-util/1.7/aether-util-1.7.pom (3 KB at 4.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.pom (4 KB at 7.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.pom (2 KB at 3.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom (5 KB at 8.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom (21 KB at 27.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom (6 KB at 12.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom (5 KB at 9.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom (6 KB at 11.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom (5 KB at 10.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/25/maven-parent-25.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-parent/25/maven-parent-25.pom (37 KB at 51.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/15/apache-15.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/15/apache-15.pom (15 KB at 30.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.4/commons-io-2.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.4/commons-io-2.4.pom (10 KB at 20.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/25/commons-parent-25.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/25/commons-parent-25.pom (48 KB at 39.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/9/apache-9.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/9/apache-9.pom (15 KB at 23.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom (965 B at 1.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom (2 KB at 2.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom (3 KB at 6.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom (20 KB at 26.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom (4 KB at 6.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/spice/spice-parent/15/spice-parent-15.pom (9 KB at 16.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom (8 KB at 15.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom (12 KB at 22.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.5/commons-io-2.5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.5/commons-io-2.5.pom (13 KB at 16.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/39/commons-parent-39.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/39/commons-parent-39.pom (61 KB at 52.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/16/apache-16.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/apache/16/apache-16.pom (16 KB at 31.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom (3 KB at 5.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar (48 KB at 47.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar (51 KB at 64.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar (197 KB at 200.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar (150 KB at 218.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar (461 KB at 389.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-core/3.0/maven-core-3.0.jar (515 KB at 268.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar (46 KB at 85.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar (37 KB at 41.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar (30 KB at 50.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar (145 KB at 242.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar (50 KB at 68.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar (104 KB at 121.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar (14 KB at 25.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar (73 KB at 98.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar (106 KB at 176.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar (46 KB at 80.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar (5 KB at 3.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar (28 KB at 20.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (14 KB at 22.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model/3.0/maven-model-3.0.jar (161 KB at 110.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (242 KB at 220.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar (50 KB at 97.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar (152 KB at 193.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar (32 KB at 64.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (9 KB at 15.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.5/commons-io-2.5.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.5/commons-io-2.5.jar (204 KB at 245.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar (78 KB at 51.1 KB/sec)
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 550 resources
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ L3LinkProvisioning ---
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom (5 KB at 5.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom (5 KB at 7.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom (6 KB at 10.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 KB at 15.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom (5 KB at 8.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom (4 KB at 8.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.2/commons-io-2.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.2/commons-io-2.2.pom (11 KB at 16.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/24/commons-parent-24.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 KB at 35.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom (13 KB at 22.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.pom (15 KB at 20.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.pom (2 KB at 3.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom (6 KB at 8.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar (60 KB at 61.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar (24 KB at 43.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar (151 KB at 96.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar (183 KB at 168.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar (84 KB at 132.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar (416 KB at 211.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.jar (57 KB at 95.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.jar (98 KB at 59.9 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:10 min
+[INFO] Finished at: 2017-04-13T14:45:19+05:30
+[INFO] Final Memory: 10M/117M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar (default-jar) on project L3LinkProvisioning: Error assembling JAR: /Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/target/classes/C:/Users/mramigan/.m2/repository -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+	at com.cisco.xmp.sdk.core.utils.MavenUtils.runMaven(MavenUtils.java:225)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:423)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:329)
+	at com.cisco.xmp.sdk.fd.ui.internal.editors.common.MavenHyperlinkAdpater$1.runInWorkspace(MavenHyperlinkAdpater.java:57)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.cisco.xmp.sdk.core 4 0 2017-04-13 14:48:51.899
+!MESSAGE Maven execution failed for file /Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/xmpxde.xml. See details or log for more information.
+!STACK 0
+java.lang.Throwable: Errors were encountered during the build:
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar (104 KB at 178.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar (14 KB at 25.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar (73 KB at 129.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar (106 KB at 179.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar (46 KB at 77.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar (5 KB at 2.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar (28 KB at 22.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (14 KB at 21.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-model/3.0/maven-model-3.0.jar (161 KB at 117.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (242 KB at 229.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar (50 KB at 59.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar (152 KB at 94.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar (32 KB at 45.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (9 KB at 11.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.5/commons-io-2.5.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.5/commons-io-2.5.jar (204 KB at 161.5 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar (78 KB at 92.6 KB/sec)
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1036 resources
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ L3LinkProvisioning ---
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.pom (5 KB at 5.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.pom (5 KB at 7.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.3/plexus-archiver-3.3.pom (6 KB at 8.0 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 KB at 24.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.pom (5 KB at 5.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom (4 KB at 3.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.2/commons-io-2.2.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/commons-io/commons-io/2.2/commons-io-2.2.pom (11 KB at 8.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/24/commons-parent-24.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 KB at 18.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.pom (13 KB at 14.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.pom (15 KB at 17.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.pom (2 KB at 3.3 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.pom (6 KB at 8.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar (60 KB at 47.9 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/maven-archiver/3.1.1/maven-archiver-3.1.1.jar (24 KB at 31.6 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar (151 KB at 130.2 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar (183 KB at 212.1 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/codehaus/plexus/plexus-io/2.7.1/plexus-io-2.7.1.jar (84 KB at 144.7 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar (416 KB at 347.8 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/iq80/snappy/snappy/0.4/snappy-0.4.jar (57 KB at 77.4 KB/sec)
+[INFO] Downloading: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.jar
+[INFO] Downloaded: http://nmtg-maven.cisco.com:9081/nexus/content/groups/lumos-group/org/tukaani/xz/1.5/xz-1.5.jar (98 KB at 164.2 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:21 min
+[INFO] Finished at: 2017-04-13T14:48:51+05:30
+[INFO] Final Memory: 10M/111M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar (default-jar) on project L3LinkProvisioning: Error assembling JAR: /Users/anakisho/git/pf-content-latest/xde/content/L3LinkProvisioning/target/classes/Users/anakisho/.m2/repository -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+	at com.cisco.xmp.sdk.core.utils.MavenUtils.runMaven(MavenUtils.java:225)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:423)
+	at com.cisco.xmp.sdk.core.utils.XMPProjectBuilderUtil.build(XMPProjectBuilderUtil.java:329)
+	at com.cisco.xmp.sdk.fd.ui.internal.editors.common.MavenHyperlinkAdpater$1.runInWorkspace(MavenHyperlinkAdpater.java:57)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2017-04-13 15:16:25.145
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.cisco.nm.workflowbuilder.workflow.actions.search.function.FunctionRefSearchQuery.getSearchString(FunctionRefSearchQuery.java:108)
+	at com.cisco.nm.workflowbuilder.workflow.actions.search.function.FunctionRefSearchResults.getLabel(FunctionRefSearchResults.java:43)
+	at org.eclipse.search.ui.text.AbstractTextSearchViewPage.getLabel(AbstractTextSearchViewPage.java:380)
+	at org.eclipse.search2.internal.ui.SearchView.updateLabel(SearchView.java:451)
+	at org.eclipse.search2.internal.ui.SearchView.internalShowSearchPage(SearchView.java:424)
+	at org.eclipse.search2.internal.ui.SearchView.showSearchResult(SearchView.java:386)
+	at org.eclipse.search2.internal.ui.SearchViewManager.showNewSearchQuery(SearchViewManager.java:71)
+	at org.eclipse.search2.internal.ui.SearchViewManager$1.queryAdded(SearchViewManager.java:48)
+	at org.eclipse.search2.internal.ui.QueryManager.fireAdded(QueryManager.java:93)
+	at org.eclipse.search2.internal.ui.QueryManager.addQuery(QueryManager.java:70)
+	at org.eclipse.search2.internal.ui.InternalSearchUI.addQuery(InternalSearchUI.java:309)
+	at org.eclipse.search2.internal.ui.InternalSearchUI.runSearchInForeground(InternalSearchUI.java:203)
+	at org.eclipse.search.ui.NewSearchUI.runQueryInForeground(NewSearchUI.java:187)
+	at org.eclipse.search.ui.NewSearchUI.runQueryInForeground(NewSearchUI.java:158)
+	at com.cisco.nm.workflowbuilder.workflow.actions.search.SearchInvoker.performSearch(SearchInvoker.java:14)
+	at com.cisco.nm.workflowbuilder.workflow.actions.search.function.FunctionRefSearchAction.findFunctionReferences(FunctionRefSearchAction.java:44)
+	at com.cisco.nm.ui.eclipse.formeditors.pdescriptor.xepbindings.propertypage.XepBindingsDetailsPage$1.widgetSelected(XepBindingsDetailsPage.java:66)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4230)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1491)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1514)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1499)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1299)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3698)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 4 2017-04-13 15:16:25.247
+!MESSAGE An internal error has occurred.
+!STACK 0
+java.lang.NullPointerException
+	at com.cisco.nm.workflowbuilder.workflow.actions.search.function.FunctionRefSearchQuery.getSearchString(FunctionRefSearchQuery.java:108)
+	at com.cisco.nm.workflowbuilder.workflow.actions.search.function.FunctionRefSearchResults.getLabel(FunctionRefSearchResults.java:43)
+	at org.eclipse.search.ui.text.AbstractTextSearchViewPage.getLabel(AbstractTextSearchViewPage.java:380)
+	at org.eclipse.search2.internal.ui.SearchView.updateLabel(SearchView.java:451)
+	at org.eclipse.search.ui.text.AbstractTextSearchViewPage$UpdateUIJob.runInUIThread(AbstractTextSearchViewPage.java:161)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3700)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 15:17:31.022
+!MESSAGE FDCR on Change xmpxde.xml
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 15:17:33.830
+!MESSAGE FDCR on Change xmpxde.xml
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 15:51:27.533
+!MESSAGE FDCR on Change xmpxde.xml
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2017-04-13 15:53:35.176
+!MESSAGE Metadata for this software package has been updated and is being received from the update server
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2017-04-13 15:53:38.335
+!MESSAGE Received updated metadata from the delivery server for this package indicating likelihood of updates or new notifications
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-04-13 15:53:43.146
+!MESSAGE No repository found at http://update.eclipse.org/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-04-13 15:55:53.627
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2017-04-13 15:57:47.612
+!MESSAGE Package-level updates for the installed software can be installed without any extra sites being used
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime 1 0 2017-04-13 15:57:56.174
+!MESSAGE Package-level updates for the installed software can be installed without any extra sites being used
+!SESSION 2017-04-13 16:09:18.633 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/anakisho/Workspaces/Delete-failure
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-13 16:09:41.090
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-13 16:09:41.093
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-04-13 16:09:45.218
+!MESSAGE Both 'com.cisco.xmp.sdk.contrib.decap' and 'com.cisco.xmp.sdk.contrib.dynamicAP' register an extension parser for 'xml'
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-13 16:09:51.388
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-04-13 16:09:56.497
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-04-13 16:09:56.497
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.ui 2 0 2017-04-13 16:10:18.279
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.cisco.nm.workflowbuilder' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime.update.protection 2 0 2017-04-13 16:10:25.918
+!MESSAGE Bundle not foundBundleInfo(com.cisco.xmp.sdk.welcome, 1.0.0.201610251854, baseLocation=file:/Applications/XMP-SDK-for-Prime-Confluence/XMP-SDK-for-Prime-Confluence.app/Contents/Profile/, location=plugins/com.cisco.xmp.sdk.welcome_1.0.0.201610251854/, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime.update.protection 1 0 2017-04-13 16:10:25.942
+!MESSAGE Fixing profile with bundles info duplicate
+
+!ENTRY com.genuitec.pulse.client.delivery.package.runtime.ui 1 0 2017-04-13 16:10:40.503
+!MESSAGE Unused software cleanup finished successfully
+!SESSION 2017-04-13 16:11:29.901 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/anakisho/Workspaces/Delete-failure
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-13 16:11:42.111
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-13 16:11:42.114
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-04-13 16:11:46.173
+!MESSAGE Both 'com.cisco.xmp.sdk.contrib.decap' and 'com.cisco.xmp.sdk.contrib.dynamicAP' register an extension parser for 'xml'
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-13 16:11:51.235
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-04-13 16:11:56.231
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-04-13 16:11:56.231
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.ui 2 0 2017-04-13 16:12:15.229
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.cisco.nm.workflowbuilder' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-13 16:31:05.448
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY com.cisco.xmp.sdk.contrib.fault 4 0 2017-04-13 16:31:05.451
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.cisco.xmp.sdk.contrib.fault. The component header value is component.xml
+
+!ENTRY com.cisco.xmp.sdk.fd.impl 1 2 2017-04-13 16:31:05.726
+!MESSAGE FDCR on Change xmpxde.xml

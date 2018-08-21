@@ -1,0 +1,9 @@
+INDEX VERSION 1.130
+/Anant/Workspaces/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4017067254.index
+/wine_connoisseur_app/src/main/resources
+/Anant/Workspaces/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1588754539.index
+/SpringMVC/src/main/resources
+/Anant/Workspaces/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1972390896.index
+/messenger/src/main/java
+/Anant/Workspaces/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/426931991.index
+/messenger/src/main/java

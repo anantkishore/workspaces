@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.service;
+
+import com.kishore.anant.messenger.entity.Wine;
+
+/**
+ * @author i351596
+ *
+ */
+public class CommentService {
+	
+	
+	/**
+	 * 
+	 */
+	public CommentService() {
+	}
+	
+	public Comment createComment(String wineId, Comment comment )
+	{
+		
+	}
+	
+
+}

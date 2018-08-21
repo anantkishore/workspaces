@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.cisco.yangide.feature.source:1.1.1.201410011226"/>
+		<item value="com.cisco.yangide.feature:1.1.1.201410011226"/>
+		<item value="com.cisco.yangide.m2e.yang.feature.source:1.1.1.201410011226"/>
+		<item value="com.cisco.yangide.m2e.yang.feature:1.1.1.201410011226"/>
+		<item value="com.googlecode.jslint4java.eclipse:1.0.0.201102041412"/>
+		<item value="com.mountainminds.eclemma.feature:2.3.2.201409141915"/>
+		<item value="com.rallydev.mylyn_feature:1.6.2.201501262208"/>
+		<item value="com.smartbear.collaborator.base.feature:10.0.10001.001"/>
+		<item value="org.dadacoalition.yedit:1.0.16"/>
+		<item value="org.eclipse.aether.maven.feature:3.1.0.20140706-2237"/>
+		<item value="org.eclipse.dltk.core:5.4.0.201602110510"/>
+		<item value="org.eclipse.dltk.ruby:5.4.0.201602110510"/>
+		<item value="org.eclipse.draw2d:3.10.1.201508170204"/>
+		<item value="org.eclipse.egit.gitflow.feature:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.egit.mylyn:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.egit:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.emf.codegen.ecore.ui:2.11.1.v20160208-0841"/>
+		<item value="org.eclipse.emf.codegen.ecore:2.11.1.v20160208-0841"/>
+		<item value="org.eclipse.emf.codegen.ui:2.8.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.codegen:2.11.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.common.ui:2.10.1.v20160208-0841"/>
+		<item value="org.eclipse.emf.common:2.11.1.v20160208-0816"/>
+		<item value="org.eclipse.emf.compare:3.1.1.201509120604"/>
+		<item value="org.eclipse.emf.converter:2.11.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.databinding.edit:1.4.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.databinding:1.4.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.ecore.edit:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.ecore.editor:2.11.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.ecore:2.11.2.v20160208-0816"/>
+		<item value="org.eclipse.emf.edit.ui:2.11.1.v20160208-0841"/>
+		<item value="org.eclipse.emf.edit:2.11.1.v20160208-0841"/>
+		<item value="org.eclipse.emf.mapping.ecore.editor:2.10.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.mapping.ecore:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.mapping.ui:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.mapping:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.emf.transaction:1.9.0.201506010221"/>
+		<item value="org.eclipse.emf.validation:1.9.0.201505312255"/>
+		<item value="org.eclipse.emf.workspace:1.9.0.201506010221"/>
+		<item value="org.eclipse.emf:2.11.2.v20160208-0841"/>
+		<item value="org.eclipse.epp.mpc:1.4.2.v20160210-2005"/>
+		<item value="org.eclipse.gef:3.10.1.201508170204"/>
+		<item value="org.eclipse.gmf.runtime.notation:1.9.0.201505312221"/>
+		<item value="org.eclipse.gmf:1.9.0.201506060219"/>
+		<item value="org.eclipse.graphiti.feature:0.12.2.v20160120-1255"/>
+		<item value="org.eclipse.help:2.1.2.v20160212-1500"/>
+		<item value="org.eclipse.jdt:3.11.2.v20160212-1500"/>
+		<item value="org.eclipse.jgit.http.apache:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.jgit.lfs:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.jgit.pgm:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.jgit:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.jst.enterprise_ui.feature:3.7.0.v201602161345"/>
+		<item value="org.eclipse.m2e.feature:1.6.2.20150902-0002"/>
+		<item value="org.eclipse.mylyn.builds:1.10.0.v20151211-2137"/>
+		<item value="org.eclipse.mylyn.commons.identity:1.10.0.v20151009-1724"/>
+		<item value="org.eclipse.mylyn.commons.notifications:1.10.0.v20151102-1814"/>
+		<item value="org.eclipse.mylyn.commons.repositories.http:1.10.0.v20151009-1724"/>
+		<item value="org.eclipse.mylyn.commons.repositories:1.10.0.v20151116-1930"/>
+		<item value="org.eclipse.mylyn.commons:3.18.0.v20151116-1930"/>
+		<item value="org.eclipse.mylyn.context_feature:3.18.0.v20151014-2324"/>
+		<item value="org.eclipse.mylyn.discovery:3.18.0.v20151009-1724"/>
+		<item value="org.eclipse.mylyn.gerrit.feature:2.9.0.v20151215-0016"/>
+		<item value="org.eclipse.mylyn.hudson:1.10.0.v20151013-2221"/>
+		<item value="org.eclipse.mylyn.ide_feature:3.18.0.v20151013-1847"/>
+		<item value="org.eclipse.mylyn.java_feature:3.18.0.v20151013-1847"/>
+		<item value="org.eclipse.mylyn.monitor:3.18.0.v20151009-1724"/>
+		<item value="org.eclipse.mylyn.pde_feature:3.18.0.v20151013-1847"/>
+		<item value="org.eclipse.mylyn.reviews.feature:2.9.0.v20151215-0113"/>
+		<item value="org.eclipse.mylyn.tasks.ide:3.18.0.v20151009-2340"/>
+		<item value="org.eclipse.mylyn.team_feature:3.18.0.v20151120-2228"/>
+		<item value="org.eclipse.mylyn.versions:1.10.0.v20151125-0025"/>
+		<item value="org.eclipse.mylyn_feature:3.18.0.v20151211-2235"/>
+		<item value="org.eclipse.pde:3.11.2.v20160212-1500"/>
+		<item value="org.eclipse.persistence.moxy:2.6.4.v20160829-44060b6"/>
+		<item value="org.eclipse.platform:4.5.2.v20160212-1500"/>
+		<item value="org.eclipse.rcp:4.5.2.v20160212-1500"/>
+		<item value="org.eclipse.recommenders.mylyn.rcp.feature:2.3.0.v20160216-1255"/>
+		<item value="org.eclipse.recommenders.rcp.feature:2.3.0.v20160216-1255"/>
+		<item value="org.eclipse.rse.core:3.7.0.201505221634"/>
+		<item value="org.eclipse.rse.dstore:3.7.0.201505221634"/>
+		<item value="org.eclipse.rse.ftp:3.7.0.201505221634"/>
+		<item value="org.eclipse.rse.local:3.7.0.201505221634"/>
+		<item value="org.eclipse.rse.ssh:3.7.0.201505221634"/>
+		<item value="org.eclipse.rse.telnet:3.7.0.201505221634"/>
+		<item value="org.eclipse.rse:3.7.0.201505221634"/>
+		<item value="org.eclipse.tigerstripe.workbench:0.9.0.201701301903"/>
+		<item value="org.eclipse.wst.jsdt.feature:1.6.201.v201512010225"/>
+		<item value="org.eclipse.wst.web_ui.feature:3.7.1.v201602111638"/>
+		<item value="org.eclipse.wst.xml.xpath2.processor.feature:2.0.301.v201409111854"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.7.2.v201511240257"/>
+		<item value="org.eclipse.wst.xsl.feature:1.3.401.v201509231858"/>
+		<item value="org.eclipse.xsd.doc:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.xsd.ecore.converter:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.xsd.edit:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.xsd.editor:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.xsd.mapping.editor:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.xsd.mapping:2.9.0.v20160208-0841"/>
+		<item value="org.eclipse.xsd:2.11.0.v20160208-0841"/>
+		<item value="org.sonatype.m2e.subclipse.feature:0.13.0.201312191101"/>
+		<item value="org.testng.eclipse:6.9.13.201609291640"/>
+		<item value="org.tigris.subversion.clientadapter.svnkit.feature:1.8.9"/>
+		<item value="org.tigris.subversion.subclipse:1.10.5"/>
+		<item value="org.tmatesoft.svnkit:1.8.5.r10237_v20140319_1934"/>
+	</list>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="236" key="DIALOG_Y_ORIGIN"/>
+		<item value="424" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="false" key="ShowDerived"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/L3LinkProvisioning/deployModel/defineDecommissionDeploymentModelTemplate.xde&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TeTunnelProvisioning/deployModel/defineTeTunnelCommissionDeploymentModelTemplate.xde&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TeTunnelProvisioning/deployModel/defineTeTunnelDecommissionDeploymentModelTemplate.xde&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/L3LinkProvisioning/deployModel/defineL3LinkDecommissionDeploymentModelTemplate.xde&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="65" key="DIALOG_Y_ORIGIN"/>
+			<item value="420" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.cisco.xmp.config.intf.service.BulkConfigSpecification"/>
+<fullyQualifiedTypeName name="com.cisco.xmp.config.intf.service.IBulkConfigServiceResult"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.cisco.xmp.config.intf.service.ConfigServiceSettings.DeploymentMode"/>
+</qualifiedTypeNameHistroy>

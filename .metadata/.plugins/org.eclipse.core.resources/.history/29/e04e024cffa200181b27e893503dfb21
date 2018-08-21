@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.service;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import com.kishore.anant.messenger.entity.Comment;
+
+/**
+ * @author i351596
+ *
+ */
+public class MessageService {
+	
+	
+	/**
+	 * 
+	 */
+	public MessageService() {
+	}
+	
+
+}

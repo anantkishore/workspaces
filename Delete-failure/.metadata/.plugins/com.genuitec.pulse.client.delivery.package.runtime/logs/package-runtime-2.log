@@ -1,0 +1,10 @@
+Apr 12, 2017 5:28:15 PM com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+INFO: Package starting up at Wed Apr 12 17:28:15 IST 2017
+Apr 12, 2017 5:28:18 PM com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForWorkspaceUpdates
+INFO: Latest version of package has already been enabled in the workspace; check finished in 19ms
+Apr 13, 2017 3:53:32 PM com.genuitec.pulse.client.common.widgets.systemid.SystemIDService loadOrDetermineSystemID
+WARNING: Unable to determine system ID using common.system service
+Apr 13, 2017 3:53:38 PM com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService checkForUpdates
+INFO: Newer promotion of package is available; update check finished in 7242ms
+Apr 13, 2017 3:57:44 PM com.genuitec.pulse.client.deliverypackage.runtime.UpdatesService canHaveP2Changes
+INFO: Detected additional root IUs indicating additional software has been added by end-user: xDEsdk.feature.group 3.0.63

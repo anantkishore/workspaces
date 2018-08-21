@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="jarPackageWizard">
+		<item value="true" key="jarPackageWizardPage.OVERWRITE"/>
+		<list key="jarPackageWizardPage.DESTINATION">
+			<item value="/Users/anakisho/Desktop"/>
+		</list>
+	</section>
+	<section name="WORKFLOW_FIND">
+		<item value="false" key="STORE_CASE_SENSITIVE"/>
+		<item value="$tetunne" key="STORE_HISTORY"/>
+	</section>
+</section>

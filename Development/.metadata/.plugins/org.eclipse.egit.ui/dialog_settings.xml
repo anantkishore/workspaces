@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="608" key="DIALOG_WIDTH"/>
+	<item value="102" key="DIALOG_Y_ORIGIN"/>
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="416" key="DIALOG_X_ORIGIN"/>
+	<item value="523" key="DIALOG_HEIGHT"/>
+	<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket-eng-sjc1.cisco.com"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Anant Kishore &lt;anakisho@cisco.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Anant Kishore &lt;anakisho@cisco.com&gt;"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://anakisho@bitbucket-eng-sjc1.cisco.com/bitbucket/scm/cvgpi/xmp_config.git"/>
+		<item value="ssh://anakisho@bitbucket-eng-sjc1.cisco.com:7999/cvgpi/xmp_config.git"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/pf-framework"/>
+		<item value="sh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/optical-content"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/pf-content"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="728" key="DIALOG_HEIGHT"/>
+		<item value="458" key="DIALOG_X_ORIGIN"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="/Users/anakisho/git/build-install/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/Users/anakisho/git/build-install-Derecho/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/Users/anakisho/git/build-install-team1/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/Users/anakisho/git/pf-framework/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/Users/anakisho/git/build-install-MP2/.git">
+			<item value="empty"/>
+		</list>
+		<list key="/Users/anakisho/git/build-install-staging/.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="686" key="DIALOG_HEIGHT"/>
+		<item value="458" key="DIALOG_X_ORIGIN"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.RebaseTargetSelectionDialog.dialogBounds">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="64" key="DIALOG_Y_ORIGIN"/>
+		<item value="512" key="DIALOG_HEIGHT"/>
+		<item value="458" key="DIALOG_X_ORIGIN"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="PushToGerritPage">
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install" key="Repository[/Users/anakisho/git/build-install-Derecho/.git].lastUri"/>
+		<item value="Derecho" key="Repository[/Users/anakisho/git/build-install-team1/.git].lastBranch"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install" key="Repository[/Users/anakisho/git/build-install-team1/.git].lastUri"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install" key="Repository[/Users/anakisho/git/build-install-mp1-pp1/.git].lastUri"/>
+		<item value="Confluence_MP2_Platform_Team" key="Repository[/Users/anakisho/git/build-install/.git].lastBranch"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install" key="Repository[/Users/anakisho/git/build-install-staging/.git].lastUri"/>
+		<item value="cepnm2.0-mp1-pp1" key="Repository[/Users/anakisho/git/build-install-mp1-pp1/.git].lastBranch"/>
+		<item value="Confluence_MP2" key="Repository[/Users/anakisho/git/build-install-staging/.git].lastBranch"/>
+		<item value="Confluence_MP2_I_38A" key="Repository[/Users/anakisho/git/pf-framework/.git].lastBranch"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install" key="Repository[/Users/anakisho/git/build-install/.git].lastUri"/>
+		<item value="Confluence_MP2" key="Repository[/Users/anakisho/git/build-install-MP2/.git].lastBranch"/>
+		<item value="Confluence_MP3" key="Repository[/Users/anakisho/git/build-install-Derecho/.git].lastBranch"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/build-install" key="Repository[/Users/anakisho/git/build-install-MP2/.git].lastUri"/>
+		<item value="ssh://anakisho@nmtg-gerrit.cisco.com:29418/sp-nms/pf-framework" key="Repository[/Users/anakisho/git/pf-framework/.git].lastUri"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="1182" key="DIALOG_WIDTH"/>
+		<item value="277" key="DIALOG_Y_ORIGIN"/>
+		<item value="252" key="DIALOG_X_ORIGIN"/>
+		<item value="389" key="DIALOG_HEIGHT"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="82" key="DIALOG_Y_ORIGIN"/>
+		<item value="440" key="DIALOG_HEIGHT"/>
+		<item value="420" key="DIALOG_X_ORIGIN"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item value="678" key="DIALOG_WIDTH"/>
+		<item value="291" key="DIALOG_Y_ORIGIN"/>
+		<item value="171" key="DIALOG_HEIGHT"/>
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.CheckoutDialog.dialogBounds">
+		<item value="576" key="DIALOG_WIDTH"/>
+		<item value="142" key="DIALOG_Y_ORIGIN"/>
+		<item value="432" key="DIALOG_X_ORIGIN"/>
+		<item value="462" key="DIALOG_HEIGHT"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item value="1076" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="579" key="DIALOG_HEIGHT"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="FetchGerritChangePage">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="557,442" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="396,603" key="STAGING_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

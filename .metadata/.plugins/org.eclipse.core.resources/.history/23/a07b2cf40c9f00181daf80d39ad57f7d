@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.service;
+
+/**
+ * @author i351596
+ *
+ */
+public class WineService {
+
+	/**
+	 * 
+	 */
+	public WineService() {
+		
+	}
+	
+	public void getService()
+	{
+		
+	}
+
+}

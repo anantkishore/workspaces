@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.microsoft.practice.bst.BSTNode&apos; to &apos;Node&apos;&#x0A;- Original project: &apos;Microsoft&apos;&#x0A;- Original element: &apos;com.microsoft.practice.bst.BSTNode&apos;&#x0A;- Renamed element: &apos;com.microsoft.practice.bst.Node&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BSTNode&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.microsoft.practice.bst{BinarySearchTree.java[BSTNode" matchStrategy="1" name="Node" qualified="false" references="true" similarDeclarations="false" stamp="1532063723032" textual="false" version="1.0"/>
+</session>

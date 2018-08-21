@@ -1,0 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>CSCve01129 - updating qualifier variable&\#x0A;&\#x0A;Change-Id\: I0000000000000000000000000000000000000000&\#x0A;</message>\n<message>fixing JS syntax errors&\#x0A;&\#x0A;Change-Id\: I0000000000000000000000000000000000000000&\#x0A;</message>\n<message>DE9032&\#x0A;&\#x0A;Change-Id\: I0000000000000000000000000000000000000000&\#x0A;</message>\n<message>Demo comments - disabling BFD setting by default&\#x0A;&\#x0A;Change-Id\: I0000000000000000000000000000000000000000&\#x0A;</message>\n<message>Updating changes to include qualifier attribute in prov extension points&\#x0A;&\#x0A;Change-Id\: I0000000000000000000000000000000000000000&\#x0A;</message>\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

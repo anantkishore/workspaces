@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><package xmlns="http://www.cisco.com/cfr2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="Layer3LinkProvisioning" pdVersion="1" sdkVersion="2.1.62" xsi:schemaLocation="http://www.cisco.com/cfr2 xdePackage.xsd">
+    <version>4.0.19</version>
+    <requiredSDKVersion>2.1.4</requiredSDKVersion>
+    <description/>
+    <author/>
+    <license/>
+    <url><![CDATA[
+		http://
+	]]></url>
+    <searchTags/>
+    <packageDependency independentPackageId="system" requiredVersion="0"/>
+    <packageDependency independentPackageId="xmp-pp-helper-xde" requiredVersion="2.1.2"/>
+    <packageDependency independentPackageId="ProvisioningContentDeploy" requiredVersion="0"/>
+    <packageDependency independentPackageId="user-interface-content" requiredVersion="0"/>
+    <packageDependency independentPackageId="ProvisioningUIController" requiredVersion="0"/>
+    <packageDependency independentPackageId="SimpleProvWizard" requiredVersion="0"/>
+    <packageDependency independentPackageId="ProvisioningDriver" requiredVersion="2.1.2"/>
+    <packageDependency independentPackageId="ProvisioningHelper" requiredVersion="0"/>
+    <xepBinding>
+        <providingPackageId>ProvisioningDriver</providingPackageId>
+        <providingXep>ProvisioningExtensions.xep</providingXep>
+        <providingFunctionName>Prov.ext.nms.driver.provideServiceModel</providingFunctionName>
+        <providingFunctionArity>4</providingFunctionArity>
+        <boundFunction>provideL3LinkServiceModel</boundFunction>
+        <bindingKey>defaultBindingKey</bindingKey>
+        <replacementPatterns/>
+        <guardExpression expressionType="js">$serviceType == "Layer 3 Link"</guardExpression>
+    </xepBinding>
+    <xepBinding>
+        <providingPackageId>ProvisioningDriver</providingPackageId>
+        <providingXep>ProvisioningExtensions.xep</providingXep>
+        <providingFunctionName>Prov.ext.nms.driver.defineCommissionDeploymentModelTemplate</providingFunctionName>
+        <providingFunctionArity>8</providingFunctionArity>
+        <boundFunction>defineL3LinkCommissionDeploymentModelTemplate</boundFunction>
+        <bindingKey>defaultBindingKey</bindingKey>
+        <replacementPatterns/>
+        <guardExpression expressionType="js">$serviceType == "Layer 3 Link"</guardExpression>
+    </xepBinding>
+    <xepBinding>
+        <providingPackageId>ProvisioningDriver</providingPackageId>
+        <providingXep>ProvisioningExtensions.xep</providingXep>
+        <providingFunctionName>Prov.ext.nms.driver.getAssociatedDeployments</providingFunctionName>
+        <providingFunctionArity>4</providingFunctionArity>
+        <boundFunction>associatedL3LinkDeployments</boundFunction>
+        <bindingKey>defaultBindingKey</bindingKey>
+        <replacementPatterns/>
+        <guardExpression expressionType="js">$serviceType == "Layer 3 Link"</guardExpression>
+    </xepBinding>
+    <xepBinding>
+        <providingPackageId>ProvisioningDriver</providingPackageId>
+        <providingXep>ProvisioningExtensions.xep</providingXep>
+        <providingFunctionName>Prov.ext.nms.driver.defineDecommissionDeploymentModelTemplate</providingFunctionName>
+        <providingFunctionArity>7</providingFunctionArity>
+        <boundFunction>defineL3LinkDecommissionDeploymentModelTemplate</boundFunction>
+        <bindingKey>defaultBindingKey</bindingKey>
+        <replacementPatterns/>
+        <guardExpression expressionType="js">$serviceType == "Layer 3 Link"</guardExpression>
+    </xepBinding>
+    <xepBinding>
+        <providingPackageId>ProvisioningDriver</providingPackageId>
+        <providingXep>ProvisioningExtensions.xep</providingXep>
+        <providingFunctionName>Prov.ext.nms.driver.ceaseServiceModel</providingFunctionName>
+        <providingFunctionArity>5</providingFunctionArity>
+        <boundFunction>ceaseL3LinkServiceModel</boundFunction>
+        <bindingKey>defaultBindingKey</bindingKey>
+        <replacementPatterns/>
+        <guardExpression expressionType="js">$serviceType == "Layer 3 Link"</guardExpression>
+    </xepBinding>
+    <xepBinding>
+        <providingPackageId>ProvisioningDriver</providingPackageId>
+        <providingXep>ProvisioningExtensions.xep</providingXep>
+        <providingFunctionName>Prov.ext.nms.driver.amendServiceModel</providingFunctionName>
+        <providingFunctionArity>5</providingFunctionArity>
+        <boundFunction>modifyL3LinkServiceModel</boundFunction>
+        <bindingKey>defaultBindingKey</bindingKey>
+        <replacementPatterns/>
+        <guardExpression expressionType="js">$serviceType == "Layer 3 Link"</guardExpression>
+    </xepBinding>
+</package>

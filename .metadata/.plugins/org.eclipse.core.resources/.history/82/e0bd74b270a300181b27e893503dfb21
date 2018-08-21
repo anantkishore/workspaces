@@ -1,0 +1,9 @@
+package com.kishore.anant.messenger.exception;
+
+public class ApplicationExceptionMapper {
+
+	public ApplicationExceptionMapper() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

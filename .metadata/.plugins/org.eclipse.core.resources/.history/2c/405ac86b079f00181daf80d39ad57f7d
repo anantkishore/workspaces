@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.dao;
+
+/**
+ * @author i351596
+ *
+ */
+public class Wine {
+	
+	
+	private String country;
+	private String description;
+	priavte String designation;
+	private int points;
+	private int price;
+	private String province;
+	private String region_1;
+	private String region_2;
+	private String variety;
+	private String winery;
+
+	/**
+	 * 
+	 */
+	public Wine {
+		// TODO Auto-generated constructor stub
+	}
+
+}

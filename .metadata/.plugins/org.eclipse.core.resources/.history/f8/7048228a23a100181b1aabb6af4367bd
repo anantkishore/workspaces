@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.kishore.anant.intuit;
+
+/**
+ * @author i351596
+ *
+ */
+public class LongToDate {
+
+	/**
+	 * 
+	 */
+	public LongToDate() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		long value = 324561092314;
+	}
+
+}

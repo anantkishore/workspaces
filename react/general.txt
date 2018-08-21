@@ -1,0 +1,10 @@
+1	n = n*2: n = n<<1
+	2	n = n/2: n = n>>1
+	3	Checking if n is power of 2 (1,2,4,8,...): check !(n & (n-1))
+	4	Getting xth bit of n: n |= (1 << x)
+
+Running integer median is solved by Heap also for priority
+
+https://www.ibm.com/developerworks/library/j-5things1/
+
+String url = "https://jsonmock.hackerrank.com/api/movies/search/?Title="+substr+"&page="+pageNumber;

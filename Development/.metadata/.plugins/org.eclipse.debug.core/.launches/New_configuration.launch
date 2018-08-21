@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.cisco.nm.workflowbuilder.workflow.launching.WorkflowLaunch">
+<stringAttribute key="ANIMATED" value="FALSE"/>
+<mapAttribute key="CAPABILITIES">
+<mapEntry key="CACHE_FUNCTIONS" value="on"/>
+<mapEntry key="CONSOLE_EVENTS" value="off"/>
+<mapEntry key="CREATE_RUN_RECORD" value="off"/>
+<mapEntry key="IOS_IN_CLI_RESULT" value="on"/>
+<mapEntry key="PROGRESS_FUNCTION_REPORTING" value="on"/>
+<mapEntry key="RESULT_DOC_FUNCTION_REPORTING" value="on"/>
+<mapEntry key="SCHEMA_CHECK_FUNCTIONS" value="on"/>
+</mapAttribute>
+<listAttribute key="COVERAGEPACKAGES"/>
+<stringAttribute key="EVENTLOG" value="FALSE"/>
+<stringAttribute key="JAVARUNTIME" value="FALSE"/>
+<stringAttribute key="PACKAGE" value=""/>
+<stringAttribute key="PAL_ANIMATED" value="FALSE"/>
+<listAttribute key="PARAMETERS"/>
+<stringAttribute key="RECORD_XFT" value="FALSE"/>
+<stringAttribute key="RECORD_XFT_CANNED_DATA_SPECIFICATION_DOCUMENT" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;cannedDataSpecification&gt;&#10;    &lt;includeInventoryProviderAccess/&gt;&#10;    &lt;includeDeviceInteractions/&gt;&#10;&lt;/cannedDataSpecification&gt;&#10;"/>
+<stringAttribute key="RECORD_XFT_CONFIGURATION" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;xftRecorderConfiguration&gt;&#10;    &lt;recordObservationDocument/&gt;&#10;&lt;/xftRecorderConfiguration&gt;&#10;"/>
+<stringAttribute key="RECORD_XFT_OPTIONS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;xftOptions/&gt;&#10;"/>
+<listAttribute key="TYPES"/>
+<stringAttribute key="WORKFLOW" value=""/>
+</launchConfiguration>

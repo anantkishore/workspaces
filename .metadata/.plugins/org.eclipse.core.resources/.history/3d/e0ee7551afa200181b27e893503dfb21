@@ -1,0 +1,60 @@
+/**
+ * 
+ */
+package com.kishore.anant.hackerrank;
+
+/**
+ * @author i351596
+ *
+ */
+public class MinimumSwaps {
+
+	private static int count = 0;
+
+	/**
+	 * 
+	 */
+	public MinimumSwaps() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		int[] arr = { 4, 3, 1, 2 };
+
+		findMinimumSwaps(arr, 0, arr.length - 1);
+
+		System.out.println(count);
+	}
+
+	private static void findMinimumSwaps(int[] arr, int i, int len) {
+
+		for (int j = 0; j < len-1; j++) 
+		{
+			for (int k = j + 1; k < len; k++) 
+			{
+				if(arr[j] > arr[k])
+				{
+					int k1 = k;
+					while(k1+1 < len && arr[k1] > arr[k1+1])
+					{
+						k1++;
+					}
+					swap(arr, j, k1);
+					count++;
+				}
+
+			}
+		}
+	}
+
+	private static void swap(int[] arr, int i, int j) {
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+	}
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.dao;
+
+/**
+ * @author i351596
+ *
+ */
+public interface WineDao {
+
+}

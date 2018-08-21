@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.resource;
+
+import javax.inject.Inject;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+
+import com.kishore.anant.messenger.entity.Comment;
+import com.kishore.anant.messenger.service.WineService;
+
+/**
+ * @author i351596
+ *
+ */
+public class CommentResource {
+
+	public CommentResource()
+	{
+		
+	}
+	
+	@GET
+	@Path("comments")
+	public String getTest2(@PathParam("wineId") long wineId)
+	{
+		return "test";
+	}
+	
+	@GET
+	@Path("comments/{commentId}")
+	public String getTest2(@PathParam("wineId") String wineId, @PathParam("commentId") String commentId)
+	{
+		return wineId+commentId;
+	}
+	
+	@POST
+	@Path("comments")
+	public String getTest2(@PathParam("wineId") String wineId, Comment comment)
+	{
+		wineService.fetchWine(wineId).
+		return wineId;
+		
+	}
+}

@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.kishore.anant;
+
+/**
+ * @author i351596
+ *
+ */
+public class NewYearChaos {
+
+	/**
+	 * 
+	 */
+	public NewYearChaos() {
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int[] arr = {2, 1, 5, 3, 4};
+		
+		int len = arr.length;
+		int[] bribes = new int[len];
+		
+		for(int i = 0; i < len; i++)
+		{
+			
+		}
+	}
+
+}

@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package com.kishore.anant.messenger.exception;
+
+import javax.ws.rs.core.Response;
+import javax.ws.rs.ext.ExceptionMapper;
+
+/**
+ * @author i351596
+ *
+ */
+public class GenericExceptionMapper implements ExceptionMapper<Throwable> {
+
+	/**
+	 * 
+	 */
+	public GenericExceptionMapper() {
+		
+	}
+
+	@Override
+	public Response toResponse(Throwable arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

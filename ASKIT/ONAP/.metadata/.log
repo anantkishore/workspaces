@@ -1,0 +1,121 @@
+!SESSION 2017-09-02 18:52:23.400 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/anakisho/Workspaces/ASKIT/ONAP -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-02 18:52:31.351
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2017-09-02 18:53:33.536
+!MESSAGE Could not acquire INavigatorContentService: Project Explorer not found.
+!SESSION 2017-09-06 18:29:02.936 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-06 18:29:14.968
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2017-09-12 20:14:32.700 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/anakisho/Workspaces/ASKIT/ONAP -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-12 20:14:40.434
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-12 20:26:36.124
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-09-12 20:26:36.158
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-12 21:16:00.110
+!MESSAGE Failure to transfer org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from http://repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from/to codehaus.org (http://repository.codehaus.org): repository.codehaus.org: unknown error
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-12 21:16:00.115
+!MESSAGE Failure to transfer org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from http://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from/to codehaus-snapshots (http://nexus.codehaus.org/snapshots/): nexus.codehaus.org: unknown error
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-09-13 11:18:54.804
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.editor.pom.MavenPomEditor$5
+!SESSION 2017-09-26 19:57:32.259 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-26 19:57:45.043
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-26 19:58:02.637
+!MESSAGE Failure to transfer org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from http://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from/to codehaus-snapshots (http://nexus.codehaus.org/snapshots/): nexus.codehaus.org: nodename nor servname provided, or not known
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-26 19:58:02.751
+!MESSAGE The metadata /Users/anakisho/.m2/repository/org/codehaus/groovy/groovy-eclipse-batch/maven-metadata-codehaus.org.xml is invalid: end tag name </head> must be the same as start tag <meta> from line 4 (position: TEXT seen ...  object.style.display = \'inline\';\n    }\n    }\n  </script>\n</head>... @66:8) 
+!SESSION 2017-09-26 20:34:53.585 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-26 20:35:32.844
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-26 20:36:01.655
+!MESSAGE Failure to transfer org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from http://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from/to codehaus-snapshots (http://nexus.codehaus.org/snapshots/): nexus.codehaus.org: nodename nor servname provided, or not known
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-26 20:36:01.916
+!MESSAGE The metadata /Users/anakisho/.m2/repository/org/codehaus/groovy/groovy-eclipse-batch/maven-metadata-codehaus.org.xml is invalid: end tag name </head> must be the same as start tag <meta> from line 4 (position: TEXT seen ...  object.style.display = \'inline\';\n    }\n    }\n  </script>\n</head>... @66:8) 
+
+!ENTRY org.eclipse.oomph.setup.core 2 0 2017-09-26 20:36:14.089
+!MESSAGE The Eclipse Git-hosted URI 'http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/org.eclipse.setup' is blocked for direct access.
+Please open a Bugzilla to add it to an official Oomph catalog.
+For initial testing, use the file system local version of the resource.
+Alternatively, run the setup archiver application as follows:
+  /Softwares/Eclipse.app/Contents/MacOS/eclipse -application org.eclipse.oomph.setup.core.SetupArchiver -consoleLog -noSplash -uris http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/org.eclipse.setup
+!SESSION 2017-10-01 00:11:37.233 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-01 00:11:48.969
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-10-01 00:12:06.788
+!MESSAGE Failure to transfer org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from http://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.groovy:groovy-eclipse-batch/maven-metadata.xml from/to codehaus-snapshots (http://nexus.codehaus.org/snapshots/): nexus.codehaus.org: nodename nor servname provided, or not known
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-10-01 00:12:06.967
+!MESSAGE The metadata /Users/anakisho/.m2/repository/org/codehaus/groovy/groovy-eclipse-batch/maven-metadata-codehaus.org.xml is invalid: end tag name </head> must be the same as start tag <meta> from line 4 (position: TEXT seen ...  object.style.display = \'inline\';\n    }\n    }\n  </script>\n</head>... @66:8) 
+!SESSION 2017-12-24 18:20:31.056 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/anakisho/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-12-24 18:20:51.805
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-24 18:21:03.421
+!MESSAGE xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-24 18:21:03.517
+!MESSAGE xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+
