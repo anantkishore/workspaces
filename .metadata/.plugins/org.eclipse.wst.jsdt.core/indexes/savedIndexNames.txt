@@ -1,9 +1,4 @@
-INDEX VERSION 1.4+/Anant/Workspaces/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3027910421.index
+INDEX VERSION 1.4+/Anant/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
 602929182.index
-2220913044.index
-1353213376.index
 44454282.index
-1509910404.index
-3239316299.index
-2367330271.index
+1410050033.index

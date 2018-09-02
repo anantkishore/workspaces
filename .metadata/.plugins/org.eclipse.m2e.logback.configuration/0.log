@@ -12914,3 +12914,138 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2018-09-03 02:57:47,985 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-09-03 02:57:47,987 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-09-03 02:57:47,989 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/Workspaces/wine_connoisseur_app/src/test/resources
+2018-09-03 03:10:42,663 [Worker-18] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-09-03 03:11:20,341 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:wine_connoisseur_app:0.0.1-SNAPSHOT @ /Anant/workspace/wine_connoisseur_app/pom.xml.
+2018-09-03 03:11:21,191 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /wine_connoisseur_app/src/main/java
+2018-09-03 03:11:21,191 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /wine_connoisseur_app/src/test/java
+2018-09-03 03:11:23,784 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2018-09-03 03:11:24,379 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:11:24,380 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/wine_connoisseur_app/src/main/resources
+2018-09-03 03:11:24,383 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:11:24,385 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/wine_connoisseur_app/src/test/resources
+2018-09-03 03:15:57,900 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-09-03 03:17:08,528 [Worker-6] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project MyFirstServlet already exists
+2018-09-03 03:17:10,278 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:myapp:0.0.1-SNAPSHOT @ /Anant/workspace/SpringBoot/myapp/pom.xml.
+2018-09-03 03:17:10,758 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.springboot.microservice.eureka.naming.server:spring-boot-microservice-eureka-naming-server:0.0.1-SNAPSHOT @ /Anant/workspace/spring-boot-microservice-eureka-naming-server/pom.xml.
+2018-09-03 03:17:11,442 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:MongoDB:0.0.1-SNAPSHOT @ /Anant/workspace/DataBases/pom.xml.
+2018-09-03 03:17:11,528 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:MyFirstServlet:1.0-SNAPSHOT @ /Anant/workspace/JavaEE/MyFirstServlet/pom.xml.
+2018-09-03 03:17:11,669 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant.springboot:course_spring_boot:0.0.1-SNAPSHOT @ /Anant/workspace/course_spring_boot/pom.xml.
+2018-09-03 03:17:11,843 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.springboot.microservice.example.currencyconversion:spring-boot-microservice-currency-conversion:0.0.1-SNAPSHOT @ /Anant/workspace/spring-boot-microservice-currency-conversion 2/pom.xml.
+2018-09-03 03:17:12,001 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.springboot.microservice.example.currencyconversion:spring-boot-microservice-currency-conversion:0.0.1-SNAPSHOT @ /Anant/workspace/spring-boot-microservice-currency-conversion/pom.xml.
+2018-09-03 03:17:12,065 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:RESTExample:0.1-SNAPSHOT @ /Anant/workspace/REST/pom.xml.
+2018-09-03 03:17:12,202 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.in28minutes.springboot.microservice.example.forex:spring-boot-microservice-forex-service:0.0.1-SNAPSHOT @ /Anant/workspace/spring-boot-microservice-forex-service/pom.xml.
+2018-09-03 03:17:12,261 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:Spring:1.0-SNAPSHOT @ /Anant/workspace/Spring/pom.xml.
+2018-09-03 03:17:13,916 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring/src/main/java
+2018-09-03 03:17:13,917 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Spring/src/test/java
+2018-09-03 03:17:14,077 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp/src/main/java
+2018-09-03 03:17:14,078 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp/src/main/resources
+2018-09-03 03:17:14,081 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /myapp/src/main/resources
+2018-09-03 03:17:14,083 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /myapp/src/test/java
+2018-09-03 03:17:14,367 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-microservice-eureka-naming-server/src/main/java
+2018-09-03 03:17:14,367 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-microservice-eureka-naming-server/src/main/resources
+2018-09-03 03:17:14,369 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-microservice-eureka-naming-server/src/main/resources
+2018-09-03 03:17:14,372 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-microservice-eureka-naming-server/src/test/java
+2018-09-03 03:17:14,517 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstServlet/src/main/java
+2018-09-03 03:17:14,517 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyFirstServlet/src/test/java
+2018-09-03 03:17:17,656 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course_spring_boot/src/main/java
+2018-09-03 03:17:17,656 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course_spring_boot/src/main/resources
+2018-09-03 03:17:17,656 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course_spring_boot/src/main/resources
+2018-09-03 03:17:17,656 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course_spring_boot/src/test/java
+2018-09-03 03:17:18,298 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-microservice-currency-conversion/src/main/java
+2018-09-03 03:17:18,299 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-microservice-currency-conversion/src/main/resources
+2018-09-03 03:17:18,301 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-microservice-currency-conversion/src/main/resources
+2018-09-03 03:17:18,304 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-microservice-currency-conversion/src/test/java
+2018-09-03 03:17:18,457 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /REST/src/main/java
+2018-09-03 03:17:18,457 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /REST/src/test/java
+2018-09-03 03:17:18,515 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-microservice-forex-service/src/main/java
+2018-09-03 03:17:18,515 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-microservice-forex-service/src/main/resources
+2018-09-03 03:17:18,517 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-microservice-forex-service/src/main/resources
+2018-09-03 03:17:18,520 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-microservice-forex-service/src/test/java
+2018-09-03 03:17:18,674 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataBases/src/main/java
+2018-09-03 03:17:18,674 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DataBases/src/test/java
+2018-09-03 03:17:18,706 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 11 project(s) in 10 sec
+2018-09-03 03:17:19,747 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:19,747 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DataBases/src/main/resources
+2018-09-03 03:17:19,749 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:19,750 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DataBases/src/test/resources
+2018-09-03 03:17:19,787 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:17:19,788 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/JavaEE/MyFirstServlet/src/main/resources
+2018-09-03 03:17:19,789 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:17:19,790 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/JavaEE/MyFirstServlet/src/test/resources
+2018-09-03 03:17:19,977 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:17:19,979 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/REST/src/main/resources
+2018-09-03 03:17:19,982 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:17:19,982 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/REST/src/test/resources
+2018-09-03 03:17:20,007 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:17:20,007 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/Spring/src/main/resources
+2018-09-03 03:17:20,011 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-03 03:17:20,012 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/Spring/src/test/resources
+2018-09-03 03:17:20,758 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:20,764 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:20,779 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-09-03 03:17:20,793 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:20,793 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/course_spring_boot/src/test/resources
+2018-09-03 03:17:21,241 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:21,241 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:21,257 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:21,262 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:21,263 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/SpringBoot/myapp/src/test/resources
+2018-09-03 03:17:22,075 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:22,075 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:22,076 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:17:22,078 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:22,079 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/spring-boot-microservice-currency-conversion/src/test/resources
+2018-09-03 03:17:22,484 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:22,485 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:22,485 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:17:22,487 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:22,487 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/spring-boot-microservice-currency-conversion 2/src/test/resources
+2018-09-03 03:17:22,989 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:22,989 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:22,990 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:17:22,993 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:22,993 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/spring-boot-microservice-eureka-naming-server/src/test/resources
+2018-09-03 03:17:23,486 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:23,487 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:23,488 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:17:23,490 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:17:23,490 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/spring-boot-microservice-forex-service/src/test/resources
+2018-09-03 03:18:25,848 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:apache-kafka:0.0.1-SNAPSHOT @ /Users/i351596/Downloads/apache-kafka/pom.xml.
+2018-09-03 03:18:26,134 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apache-kafka/src/main/java
+2018-09-03 03:18:26,135 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apache-kafka/src/main/resources
+2018-09-03 03:18:26,135 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apache-kafka/src/main/resources
+2018-09-03 03:18:26,135 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apache-kafka/src/test/java
+2018-09-03 03:18:26,188 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2018-09-03 03:18:26,605 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:26,605 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:18:26,606 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:18:26,608 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:26,608 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/i351596/Downloads/apache-kafka/src/test/resources
+2018-09-03 03:18:33,754 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:33,755 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:18:33,755 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:18:33,757 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:33,758 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/SpringBoot/myapp/src/test/resources
+2018-09-03 03:18:34,192 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:34,194 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:18:34,194 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:18:34,195 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:34,195 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/spring-boot-microservice-currency-conversion/src/test/resources
+2018-09-03 03:18:35,068 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:35,068 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:18:35,068 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:18:35,071 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:18:35,071 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/spring-boot-microservice-forex-service/src/test/resources
+2018-09-03 03:19:38,716 [Worker-7] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project DataBases already exists
+2018-09-03 03:19:38,716 [Worker-7] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project REST already exists
+2018-09-03 03:19:38,873 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:apache-kafka:0.0.1-SNAPSHOT @ /Anant/workspace/apache-kafka/pom.xml.
+2018-09-03 03:19:39,044 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apache-kafka/src/main/java
+2018-09-03 03:19:39,045 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apache-kafka/src/main/resources
+2018-09-03 03:19:39,045 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /apache-kafka/src/main/resources
+2018-09-03 03:19:39,045 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /apache-kafka/src/test/java
+2018-09-03 03:19:39,101 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 0 sec
+2018-09-03 03:19:39,685 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:19:39,685 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-03 03:19:39,686 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-09-03 03:19:39,687 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-03 03:19:39,688 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/apache-kafka/src/test/resources
