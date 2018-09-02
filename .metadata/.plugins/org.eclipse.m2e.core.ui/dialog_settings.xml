@@ -2,10 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.kishore.anant.springboot"/>
 		</list>
 		<list key="name">
+			<item value="Course Spring Boot"/>
 		</list>
 		<list key="artifactId">
+			<item value="course_spring_boot"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -36,6 +39,22 @@
 		<item value="600" key="x"/>
 		<item value="170" key="y"/>
 		<item value="489" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/i351596/Downloads/weather"/>
+			<item value="/Users/i351596/Downloads/spring-boot-microservice-eureka-naming-server"/>
+			<item value="/Users/i351596/Downloads/spring-boot-microservice-currency-conversion"/>
+			<item value="/Users/i351596/Downloads/spring-boot-microservice-forex-service"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
@@ -70,13 +89,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.kishore.anant.messenger"/>
 		</list>
 		<list key="groupId">
-			<item value="com.kishore.anant"/>
 		</list>
 		<list key="artifactId">
-			<item value="messenger"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -5,30 +5,30 @@
 		<item value="364" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="false" key="isRegEx"/>
-		<item value="COMMENT" key="selection"/>
+		<item value="true" key="isRegEx"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="\n"/>
+			<item value="mysql&gt;"/>
+			<item value="Query OK, 1 row affected (0.01 sec)"/>
+			<item value="Query OK, 1 row affected (0.00 sec)&#x0A;"/>
+			<item value="LOGS"/>
+			<item value="RollingFile"/>
 			<item value="MESSAGE"/>
 			<item value="designation"/>
 			<item value="private"/>
 			<item value="("/>
 			<item value="]"/>
 			<item value=")"/>
-			<item value="))"/>
-			<item value="line["/>
-			<item value="map.put("/>
-			<item value="addEdge(graph,"/>
-			<item value="printLeft"/>
-			<item value="scanner"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="COMMENT"/>
 			<item value="public"/>
-			<item value=""/>
 			<item value="graph.addEdge("/>
 		</list>
 	</section>
@@ -36,7 +36,7 @@
 		<item value="290" key="DIALOG_WIDTH"/>
 		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
 		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="1056" key="DIALOG_X_ORIGIN"/>
+		<item value="502" key="DIALOG_X_ORIGIN"/>
 		<item value="112" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
