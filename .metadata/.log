@@ -8439,3 +8439,170 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2018-09-03 03:19:38.716
 !MESSAGE Project REST already exists
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2018-09-03 03:30:03.261
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+!SESSION 2018-09-04 22:06:50.596 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-09-04 22:06:53.779
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2018-09-04 22:06:57.497
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1224970135:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-09-04 22:06:57.500
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1224970135:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.501
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.501
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.502
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.505
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.505
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.506
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.506
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-09-04 22:06:57.507
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-04 22:07:14.520
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-04 22:07:14.521
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-04 22:07:14.521
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-04 22:07:31.304
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-04 22:07:31.305
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-04 22:09:14.576
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-04 22:09:14.577
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-04 22:19:32.546
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-04 22:19:32.550
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-04 22:19:34.800
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-04 22:19:34.802
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2018-09-04 22:46:39.388
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+!SESSION 2018-09-06 18:13:51.045 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-09-06 18:13:54.016
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2018-09-06 18:14:00.408
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1224970135:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-09-06 18:14:00.412
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1224970135:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.412
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.413
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.414
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.416
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.417
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.417
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.418
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-09-06 18:14:00.418
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:04.812
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:04.814
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:05.255
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:05.257
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:05.298
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:05.301
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:12.854
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-09-06 18:14:12.856
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-06 18:15:52.846
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-06 18:15:52.847
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-09-06 18:15:52.847
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2018-09-06 18:59:52.809
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)

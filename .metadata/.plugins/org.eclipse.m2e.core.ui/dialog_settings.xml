@@ -42,6 +42,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Anant/workspace"/>
+			<item value="/Users/i351596/Downloads/apache-kafka"/>
 			<item value="/Anant/workspace/wine_connoisseur_app"/>
 			<item value="/Users/i351596/Downloads/weather"/>
 			<item value="/Users/i351596/Downloads/spring-boot-microservice-eureka-naming-server"/>
