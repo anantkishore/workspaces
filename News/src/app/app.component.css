@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower|Source+Sans+Pro');
+body {
+    align-content: center;
+    font-family: 'Gamja Flower';
+}
+#newsComponent{
+    width:800px;
+    margin:0 auto;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}

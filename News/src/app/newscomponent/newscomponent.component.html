@@ -1,0 +1,24 @@
+News Code : <input type="text" [(ngModel)]="topic" placeholder="category">
+<button (click)="load()">load</button>
+
+<!--p> Author: {{response.author}}</p>
+<p> category: {{response.category}}</p>
+<p> dataRefreshedTime: {{response.dataRefreshedTime}}</p>
+<p> description: {{response.description}}</p>
+<p> publishedAt: {{response.publishedAt}}</p>
+<p> resource: {{response.resource}}</p>
+<p> source: {{response.source}}</p>
+<p> title: {{response.title}}</p>
+<p> url: {{response.url}}</p>
+<p> urlToImage: {{response.urlToImage}}</p-->
+
+  <ul>
+  <li  *ngFor="let item of response">
+  <div id ="box">
+      <h2><a href="{{item.url}}">{{item.title}}</a></h2>
+      <p><img class="img" src="{{item.urlToImage}}" > 
+      {{item.description}}</p>
+      <div id="srcDiv">Source:  </div><a href="{{item.url}}">ref</a>
+  </div>
+  </li>
+  </ul>
