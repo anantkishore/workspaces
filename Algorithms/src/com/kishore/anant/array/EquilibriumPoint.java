@@ -21,7 +21,7 @@ public class EquilibriumPoint {
 		for (int i = 0; i < input; i++) {
 			int len = sc.nextInt();//Integer.parseInt(reader.readLine().trim());
 			if (len == 1) {
-				sb.append("1/n");
+				sb.append("1\n");
 			}
 			else {
 			//String[] str = reader.readLine().split(" ");
@@ -42,9 +42,9 @@ public class EquilibriumPoint {
 					rightSum += arr[high--];
 			}
 			if (flag)
-				sb.append(++low+"/n");
+				sb.append(++low+"\n");
 			else
-				sb.append("-1/n");
+				sb.append("-1\n");
 		}
 		}
 		System.out.println(sb.toString());
