@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.kishore.anant"/>
 			<item value="com.kishore.anant.springboot"/>
 		</list>
 		<list key="name">
 			<item value="Course Spring Boot"/>
 		</list>
 		<list key="artifactId">
+			<item value="Junit"/>
 			<item value="course_spring_boot"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Define title-->
+        <title>Simple Crawler</title>
+        <!--You can load all the javascript files here-->
+        <script type="text/javascript" src="/javascripts/script.js"></script>
+
+        <!--You can load all the css files here-->
+        <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    </head>
+    
+    <body>
+        <!--HTML content goes here-->
+		<div id="search-container" class="formDiv">
+            
+            <div class="form">
+                URL: <input id="urlId" class="textbox" type="text" placeholder="place url here"/>
+                <br><br>
+                <input class="submit_button" type="submit" value="Submit" onclick="scrap()"/>
+            </div>
+        </div>
+        
+        <div>
+            <br><br>
+            <p id="resultId" style="width:650px" ></p>
+            <br><br>
+            <a href="/google">Google Search</a>
+        </div>
+        
+    </body>
+</html>

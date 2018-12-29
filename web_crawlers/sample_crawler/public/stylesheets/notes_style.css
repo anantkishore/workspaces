@@ -1,0 +1,95 @@
+.headerText {
+
+    color: #262626;
+    font-family: 'SalesforceSansThin',Helvetica,Arial,sans-serif !important;
+    text-align: left;
+    font-weight: normal;
+    font-size: 42px !important;
+    line-height: 52px !important;
+}
+/*hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 20%;
+    border-style: inset;
+    border-width: 1px;
+  }
+*/
+.footer_header {
+    font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+.footerClass {
+    display: inline-block;
+    height: 500px;
+    padding: 0px 10%;
+    margin: 0px; 
+    width: 80%;
+    background-color: #262626;
+}
+
+
+.last_container_layout {
+    display: inline-block;
+    padding: 2% 10%;
+    margin: 0px;
+    width: 80%;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.first_container_layout {
+    margin: 5% 10%;
+    padding: 50px 10%;
+    width: 80%;
+    height: 500px;
+}
+
+.header_paragraph_layout {
+    display: inline-block;
+    font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #5fb709;
+    padding: 10px 150px;
+    margin: 5px;
+}
+
+.headerClass {
+    display: block;
+    padding: 1% 10%;
+    margin: 0px;
+    height: 10%;
+    width: 80%;
+    background-color: #ffffff;
+    border-bottom: 3px solid #5fb709;
+}
+
+.paragraph_layout {
+    font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    padding: 10px 30px;
+    margin: 10px;
+    color: black;
+}
+
+.card_layout {
+    margin: 20px 60px;
+    padding: 10%;
+    height: 120px;
+    width: 50%;
+    font: outline;
+    background-color: azure;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'SalesforceSansThin',Helvetica,Arial,sans-serif !important;
+  }
