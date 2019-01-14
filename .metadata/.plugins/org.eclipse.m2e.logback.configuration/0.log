@@ -14975,3 +14975,39 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2018-12-10 11:37:45,209 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
 2018-12-10 15:00:47,018 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-12-27 20:56:25,745 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-01-10 23:48:45,873 [Worker-9] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-01-10 23:54:49,262 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_161","java.vendor":"Oracle Corporation","os.name":"Mac OS X","os.arch":"x86_64","os.version":"10.14.2","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.7.3.M20180330-0640","projectCount":13,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.12.100.v20180210-1608"},{"symbolicName":"org.eclipse.m2e.core","version":"1.8.3.20180227-2137"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-site-plugin:3.6:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test":[],"org.apache.maven.plugins:maven-war-plugin:2.2:war":["configurator"],"org.apache.maven.plugins:maven-war-plugin:3.1.0:war":["configurator"]}}
+2019-01-10 23:54:49,446 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.UnknownHostException: proxy02.ariba.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_161]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_161]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_161]
+	at okhttp3.Dns$1.lookup(Dns.java:39) ~[na:na]
+	at okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:170) ~[na:na]
+	at okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:136) ~[na:na]
+	at okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:81) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:171) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:69) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_161]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_161]
+2019-01-14 17:21:51,625 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

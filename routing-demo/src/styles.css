@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+nav a{
+    color: black;
+    background-color: aliceblue;
+    align-content: space-between;
+    font-display: bold;
+    font-size: 20px;
+}

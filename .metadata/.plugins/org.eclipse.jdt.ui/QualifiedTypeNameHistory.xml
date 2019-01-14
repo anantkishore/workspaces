@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.persistence.Table"/>
-<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.StreamTokenizer"/>
 <fullyQualifiedTypeName name="java.util.stream.Stream"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="com.kishore.anant.Calculator"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
