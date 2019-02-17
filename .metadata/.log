@@ -3215,3 +3215,900 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 java.lang.IllegalArgumentException: timeout value is negative
 	at java.lang.Thread.sleep(Native Method)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+!SESSION 2019-01-16 15:47:55.606 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-16 15:47:59.406
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-01-16 15:48:03.875
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-01-16 15:48:03.879
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.880
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.880
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.882
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.885
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.886
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.886
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.887
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-01-16 15:48:03.887
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+!SESSION 2019-01-19 15:29:50.027 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-19 15:29:53.807
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-01-19 15:29:57.882
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-01-19 15:29:57.885
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.886
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.886
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.888
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.891
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.891
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.892
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.892
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:29:57.892
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-19 15:30:06.226
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-19 15:30:06.228
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-19 15:30:06.228
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 15:30:20.674
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 15:30:20.675
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 15:30:42.976
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 15:30:42.977
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-01-19 15:35:29.554 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-19 15:35:32.454
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-01-19 15:35:35.907
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-01-19 15:35:35.910
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.910
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.911
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.912
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.915
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.915
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.916
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.916
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-01-19 15:35:35.916
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-19 15:46:41.578
+!MESSAGE Could not submit usage statistics to https://stats.takari.io/stats
+!STACK 0
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323)
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207)
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201)
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42)
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310)
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219)
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:138)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236)
+	... 31 more
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 15:50:12.725
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 15:50:12.726
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-01-19 16:00:53.735
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-19 16:24:41.793
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-19 16:24:41.794
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-19 16:24:41.794
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 16:24:51.150
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 16:24:51.150
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-01-23 11:51:19.361 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-23 11:51:23.605
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-01-23 11:51:30.374
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-01-23 11:51:30.379
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.379
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.380
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.382
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.385
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.386
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.386
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.386
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-01-23 11:51:30.387
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-23 11:51:32.718
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-23 11:51:32.726
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-23 11:51:32.727
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-01-27 15:40:03.389 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-27 15:40:07.046
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-01-27 15:40:12.917
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-01-27 15:40:12.920
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.921
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.921
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.923
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.926
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.926
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.926
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.927
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-01-27 15:40:12.927
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-27 15:40:14.685
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-27 15:40:14.687
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-27 15:40:14.688
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-27 15:41:54.235
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-27 15:42:59.451
+!MESSAGE No repository found at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-27 15:43:28.883
+!MESSAGE No repository found at http://www.apache.org/dist/geronimo/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-01-27 15:48:12.594
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-27 15:51:19.253
+!MESSAGE Could not submit usage statistics to https://stats.takari.io/stats
+!STACK 0
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323)
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207)
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201)
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42)
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310)
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219)
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:138)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236)
+	... 31 more
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-27 15:52:36.797
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-27 15:52:36.798
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-27 15:52:44.128
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-27 15:52:44.129
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2019-01-29 20:34:33.020 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-29 20:34:36.358
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-01-29 20:34:41.457
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-01-29 20:34:41.461
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.461
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.462
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.464
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.466
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.466
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.467
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.467
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-01-29 20:34:41.467
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-29 20:34:43.123
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-29 20:34:43.125
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-01-29 20:34:43.125
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-29 20:49:15.043
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-29 20:51:39.255
+!MESSAGE No repository found at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-29 20:52:14.512
+!MESSAGE No repository found at http://www.apache.org/dist/geronimo/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-01-29 20:57:46.291
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+!SESSION 2019-02-10 16:47:42.818 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-10 16:47:46.915
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-02-10 16:47:53.194
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-02-10 16:47:53.198
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.198
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.199
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.202
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.207
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.208
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.208
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.209
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-02-10 16:47:53.209
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-10 16:54:52.021
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-10 16:54:52.023
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-10 16:54:52.025
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-02-10 16:59:01.422
+!MESSAGE Could not submit usage statistics to https://stats.takari.io/stats
+!STACK 0
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227)
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323)
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185)
+	at okhttp3.RealCall.execute(RealCall.java:69)
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207)
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201)
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42)
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310)
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219)
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at okio.Okio$2.read(Okio.java:138)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236)
+	... 31 more
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-10 17:00:57.436
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-10 17:00:57.437
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-10 17:01:10.682
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-10 17:01:10.683
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-10 17:34:30.898
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-10 17:35:24.133
+!MESSAGE No repository found at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-10 17:35:59.238
+!MESSAGE No repository found at http://www.apache.org/dist/geronimo/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-02-10 17:40:06.355
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+!SESSION 2019-02-12 10:01:36.764 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-12 10:01:41.132
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-02-12 10:01:46.810
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-02-12 10:01:46.815
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.816
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.817
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.819
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.825
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.826
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.826
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.827
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-02-12 10:01:46.828
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-12 11:29:50.712
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-12 11:32:49.798
+!MESSAGE No repository found at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-12 11:33:17.781
+!MESSAGE No repository found at http://www.apache.org/dist/geronimo/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-02-12 11:35:17.277
+!MESSAGE Connection to http://www.pramati.com/downloads/eclipse/updates/site.xml failed on Remote host closed connection during handshake. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1002)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.writeRecord(SSLSocketImpl.java:757)
+	at sun.security.ssl.AppOutputStream.write(AppOutputStream.java:123)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:157)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:164)
+	at org.apache.http.impl.AbstractHttpClientConnection.doFlush(AbstractHttpClientConnection.java:270)
+	at org.apache.http.impl.AbstractHttpClientConnection.flush(AbstractHttpClientConnection.java:275)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.flush(AbstractClientConnAdapter.java:207)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:241)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:686)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:488)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	... 19 more
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-02-12 11:39:28.228
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+!SESSION 2019-02-13 12:30:57.346 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-13 12:31:01.579
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-02-13 12:31:16.756
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-02-13 12:31:16.767
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.769
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.770
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.772
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.782
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.783
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.785
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.786
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-02-13 12:31:16.786
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 12:31:27.731
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 12:31:27.733
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-13 12:31:27.733
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2019-02-15 11:58:04.573 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Anant/workspace -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-15 11:58:08.920
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-02-15 11:58:13.692
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-02-15 11:58:13.696
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.697
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.697
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.700
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.705
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.705
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.705
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.706
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-02-15 11:58:13.706
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-15 11:58:16.657
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-15 11:58:16.659
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-15 11:58:16.659
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-15 12:10:19.653
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-15 12:10:19.654
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-15 12:10:46.077
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-15 12:10:46.078
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-15 12:52:46.347
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-15 12:56:49.208
+!MESSAGE No repository found at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-15 12:58:00.514
+!MESSAGE No repository found at http://www.apache.org/dist/geronimo/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-02-15 13:07:06.414
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+!SESSION 2019-02-16 22:33:43.035 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_161
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/i351596/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-16 22:33:46.991
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16|sap.corp|*.sap.corp|corp.sap|*.corp.sap by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.perforce.team.core 2 0 2019-02-16 22:33:52.885
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2019-02-16 22:33:52.889
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1146.fwk1114050800:1/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.890
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.890
+!MESSAGE Using default charset: UTF-8; JVM charset: UTF-8
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.893
+!MESSAGE Checking this Java for symbolic link support...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.896
+!MESSAGE It seems this Java supports symbolic links.
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.897
+!MESSAGE Symbolic link support at the OS level will be determined at runtime...
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.897
+!MESSAGE initializing system file command helper class: java.io.File
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.898
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.RpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2019-02-16 22:33:52.898
+!MESSAGE setting RPC system file helper to class com.perforce.team.core.p4java.P4JavaSysFileCommandsHelper
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-16 22:33:55.090
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-16 22:33:55.095
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-02-16 22:33:55.098
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-16 23:09:41.448
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-16 23:11:11.770
+!MESSAGE No repository found at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-16 23:12:09.319
+!MESSAGE No repository found at http://www.apache.org/dist/geronimo/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-02-16 23:18:59.441
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:86)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-17 04:11:08.857
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-17 04:11:08.858
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2019-02-17 04:11:58.302
+!MESSAGE Failed to resolve selection in ‘=Algorithms/src<com.kishore.anant.array{FirstMissingPositive.java’ at offset 577.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.codeassist.impl.AssistParser.triggerRecoveryUponLambdaClosure(AssistParser.java:482)
+	at org.eclipse.jdt.internal.codeassist.impl.AssistParser.consumeBlockStatement(AssistParser.java:604)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.consumeBlockStatement(SelectionParser.java:828)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.consumeRule(Parser.java:7067)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11669)
+	at org.eclipse.jdt.internal.codeassist.impl.AssistParser.parseBlockStatements(AssistParser.java:1933)
+	at org.eclipse.jdt.internal.codeassist.impl.AssistParser.parseBlockStatements(AssistParser.java:1771)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.parseBlockStatements(Engine.java:343)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.parseBlockStatements(Engine.java:306)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.select(SelectionEngine.java:1056)
+	at org.eclipse.jdt.internal.core.Openable.codeSelect(Openable.java:163)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:378)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeSelect(CompilationUnit.java:372)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:138)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-17 15:15:23.402
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-17 15:15:23.404
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

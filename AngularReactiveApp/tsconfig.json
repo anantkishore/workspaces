@@ -11,6 +11,14 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es5",
+    "paths": {
+      "http": [
+        "src/empty.ts"
+      ],
+      "https": [
+        "src/empty.ts"
+      ]
+    },
     "typeRoots": [
       "node_modules/@types"
     ],

@@ -1,0 +1,29 @@
+Questions asked in Telephonic interviews:
+- find time 
+- List and Set difference
+- Problem Solving questions
+- JavaScript basics
+- AWS
+- Java questions 
+
+
+Puzzle/aptitude questions
+Core Java Questions/
+Design Patterns( SOLID )
+Problem Solving
+Coding and Algorithm
+Project Based questions
+REST/Spring Boot/ Micro Services/Kafka/Hibernate
+
+some puzzles like 25 horse running and select first 5. SOme questions on page tables and memory.  
+1. Define copy constructor, virtual destructor
+2. Difference b/w volatile and const keyword and usage
+3. WAP for mirror tree.
+4. WAP to find the Nth node from the end.
+5. WAP to delete a complete tree.
+6. WAP for paranthesis matching.
+7. No of binary trees possible with n nodes.
+8. What is the reason for job switch.
+9. Questions on current project.
+10.Aptitude question on clock
+11.Design patterns 
