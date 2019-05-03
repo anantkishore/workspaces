@@ -15226,3 +15226,674 @@ java.net.UnknownHostException: proxy02.ariba.com
 2019-02-27 11:28:48,240 [Worker-20] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2019-03-02 11:32:36,157 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2019-03-04 16:48:46,467 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-05 15:45:49,990 [Worker-109] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-03-06 00:18:04,791 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-06 21:20:35,870 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-03-06 21:30:38,843 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_161","java.vendor":"Oracle Corporation","os.name":"Mac OS X","os.arch":"x86_64","os.version":"10.14.3","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.7.3.M20180330-0640","projectCount":13,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.12.100.v20180210-1608"},{"symbolicName":"org.eclipse.m2e.core","version":"1.8.3.20180227-2137"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-site-plugin:3.6:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test":[],"org.apache.maven.plugins:maven-war-plugin:2.2:war":["configurator"],"org.apache.maven.plugins:maven-war-plugin:3.1.0:war":["configurator"]}}
+2019-03-06 21:31:39,584 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227) ~[na:na]
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240) ~[na:na]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210) ~[na:na]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:69) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_161]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_161]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_161]
+	at okio.Okio$2.read(Okio.java:138) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236) ~[na:na]
+	... 31 common frames omitted
+2019-03-07 20:54:22,701 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-11 19:05:17,123 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-14 14:35:07,565 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_161","java.vendor":"Oracle Corporation","os.name":"Mac OS X","os.arch":"x86_64","os.version":"10.14.3","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.7.3.M20180330-0640","projectCount":13,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.12.100.v20180210-1608"},{"symbolicName":"org.eclipse.m2e.core","version":"1.8.3.20180227-2137"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-site-plugin:3.6:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test":[],"org.apache.maven.plugins:maven-war-plugin:2.2:war":["configurator"],"org.apache.maven.plugins:maven-war-plugin:3.1.0:war":["configurator"]}}
+2019-03-14 14:36:07,947 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227) ~[na:na]
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240) ~[na:na]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210) ~[na:na]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:69) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_161]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_161]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_161]
+	at okio.Okio$2.read(Okio.java:138) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236) ~[na:na]
+	... 31 common frames omitted
+2019-03-19 12:13:17,442 [Worker-20] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-19 12:28:45,845 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6-sources.jar
+2019-03-19 12:28:55,829 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6-sources.jar
+2019-03-19 12:28:55,898 [Worker-3] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.9.6
+2019-03-27 19:13:33,146 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-27 19:18:11,963 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/REST
+2019-03-27 19:18:11,964 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 19:18:19,676 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/REST
+2019-03-27 19:18:19,676 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 19:18:35,915 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/REST
+2019-03-27 19:18:35,917 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 19:18:42,184 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/REST
+2019-03-27 19:18:42,186 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 19:21:34,169 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-parent/2.1.3.RELEASE/spring-boot-starter-parent-2.1.3.RELEASE.pom
+2019-03-27 19:21:34,457 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-parent/2.1.3.RELEASE/spring-boot-starter-parent-2.1.3.RELEASE.pom
+2019-03-27 19:21:35,697 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:dockerDemo:0.0.1-SNAPSHOT @ /Users/i351596/Downloads/dockerDemo/pom.xml.
+2019-03-27 19:21:35,987 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-web/2.1.3.RELEASE/spring-boot-starter-web-2.1.3.RELEASE.pom
+2019-03-27 19:21:36,399 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-web/2.1.3.RELEASE/spring-boot-starter-web-2.1.3.RELEASE.pom
+2019-03-27 19:21:36,703 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starters/2.1.3.RELEASE/spring-boot-starters-2.1.3.RELEASE.pom
+2019-03-27 19:21:37,017 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starters/2.1.3.RELEASE/spring-boot-starters-2.1.3.RELEASE.pom
+2019-03-27 19:21:37,317 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter/2.1.3.RELEASE/spring-boot-starter-2.1.3.RELEASE.pom
+2019-03-27 19:21:37,626 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter/2.1.3.RELEASE/spring-boot-starter-2.1.3.RELEASE.pom
+2019-03-27 19:21:37,932 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.pom
+2019-03-27 19:21:38,553 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.pom
+2019-03-27 19:21:38,853 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.pom
+2019-03-27 19:21:39,165 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.pom
+2019-03-27 19:21:39,469 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE.pom
+2019-03-27 19:21:39,781 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE.pom
+2019-03-27 19:21:40,067 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.pom
+2019-03-27 19:21:40,310 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.pom
+2019-03-27 19:21:40,594 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.pom
+2019-03-27 19:21:40,904 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.pom
+2019-03-27 19:21:41,209 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.pom
+2019-03-27 19:21:41,524 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.pom
+2019-03-27 19:21:41,825 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE.pom
+2019-03-27 19:21:42,136 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE.pom
+2019-03-27 19:21:42,438 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.pom
+2019-03-27 19:21:42,984 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.pom
+2019-03-27 19:21:43,268 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-logging/2.1.3.RELEASE/spring-boot-starter-logging-2.1.3.RELEASE.pom
+2019-03-27 19:21:43,509 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-logging/2.1.3.RELEASE/spring-boot-starter-logging-2.1.3.RELEASE.pom
+2019-03-27 19:21:43,840 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.pom
+2019-03-27 19:21:44,079 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.pom
+2019-03-27 19:21:44,367 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j/2.11.2/log4j-2.11.2.pom
+2019-03-27 19:21:44,838 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j/2.11.2/log4j-2.11.2.pom
+2019-03-27 19:21:45,118 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.pom
+2019-03-27 19:21:45,362 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.pom
+2019-03-27 19:21:45,658 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-json/2.1.3.RELEASE/spring-boot-starter-json-2.1.3.RELEASE.pom
+2019-03-27 19:21:45,897 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-json/2.1.3.RELEASE/spring-boot-starter-json-2.1.3.RELEASE.pom
+2019-03-27 19:21:46,160 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.pom
+2019-03-27 19:21:46,438 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.pom
+2019-03-27 19:21:46,841 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-tomcat/2.1.3.RELEASE/spring-boot-starter-tomcat-2.1.3.RELEASE.pom
+2019-03-27 19:21:47,149 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-tomcat/2.1.3.RELEASE/spring-boot-starter-tomcat-2.1.3.RELEASE.pom
+2019-03-27 19:21:47,456 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.pom
+2019-03-27 19:21:47,764 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.pom
+2019-03-27 19:21:48,070 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-el/9.0.16/tomcat-embed-el-9.0.16.pom
+2019-03-27 19:21:48,384 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-el/9.0.16/tomcat-embed-el-9.0.16.pom
+2019-03-27 19:21:48,706 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.16/tomcat-embed-websocket-9.0.16.pom
+2019-03-27 19:21:48,951 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.16/tomcat-embed-websocket-9.0.16.pom
+2019-03-27 19:21:49,299 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/tomcat-annotations-api/9.0.16/tomcat-annotations-api-9.0.16.pom
+2019-03-27 19:21:49,612 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/tomcat-annotations-api/9.0.16/tomcat-annotations-api-9.0.16.pom
+2019-03-27 19:21:49,909 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.pom
+2019-03-27 19:21:50,228 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.pom
+2019-03-27 19:21:50,544 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-test/2.1.3.RELEASE/spring-boot-starter-test-2.1.3.RELEASE.pom
+2019-03-27 19:21:50,842 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-test/2.1.3.RELEASE/spring-boot-starter-test-2.1.3.RELEASE.pom
+2019-03-27 19:21:51,145 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.pom
+2019-03-27 19:21:51,455 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.pom
+2019-03-27 19:21:51,756 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.pom
+2019-03-27 19:21:52,071 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.pom
+2019-03-27 19:21:52,473 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+2019-03-27 19:21:52,783 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.pom
+2019-03-27 19:21:53,087 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+2019-03-27 19:21:53,707 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy-parent/1.9.10/byte-buddy-parent-1.9.10.pom
+2019-03-27 19:21:53,969 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom
+2019-03-27 19:21:54,323 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.pom
+2019-03-27 19:21:54,614 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.pom
+2019-03-27 19:21:54,937 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.pom
+2019-03-27 19:21:55,232 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-web/2.1.3.RELEASE/spring-boot-starter-web-2.1.3.RELEASE.jar
+2019-03-27 19:21:55,552 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-web/2.1.3.RELEASE/spring-boot-starter-web-2.1.3.RELEASE.jar
+2019-03-27 19:21:55,855 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter/2.1.3.RELEASE/spring-boot-starter-2.1.3.RELEASE.jar
+2019-03-27 19:21:56,166 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter/2.1.3.RELEASE/spring-boot-starter-2.1.3.RELEASE.jar
+2019-03-27 19:21:56,467 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar
+2019-03-27 19:22:00,671 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar
+2019-03-27 19:22:00,972 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar
+2019-03-27 19:22:04,461 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar
+2019-03-27 19:22:04,762 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-logging/2.1.3.RELEASE/spring-boot-starter-logging-2.1.3.RELEASE.jar
+2019-03-27 19:22:05,074 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-logging/2.1.3.RELEASE/spring-boot-starter-logging-2.1.3.RELEASE.jar
+2019-03-27 19:22:05,376 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar
+2019-03-27 19:22:05,686 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar
+2019-03-27 19:22:05,990 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar
+2019-03-27 19:22:06,505 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar
+2019-03-27 19:22:06,808 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-json/2.1.3.RELEASE/spring-boot-starter-json-2.1.3.RELEASE.jar
+2019-03-27 19:22:07,119 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-json/2.1.3.RELEASE/spring-boot-starter-json-2.1.3.RELEASE.jar
+2019-03-27 19:22:07,423 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-tomcat/2.1.3.RELEASE/spring-boot-starter-tomcat-2.1.3.RELEASE.jar
+2019-03-27 19:22:07,737 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-tomcat/2.1.3.RELEASE/spring-boot-starter-tomcat-2.1.3.RELEASE.jar
+2019-03-27 19:22:08,038 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar
+2019-03-27 19:22:09,928 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar
+2019-03-27 19:22:10,181 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-el/9.0.16/tomcat-embed-el-9.0.16.jar
+2019-03-27 19:22:10,454 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-el/9.0.16/tomcat-embed-el-9.0.16.jar
+2019-03-27 19:22:10,803 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.16/tomcat-embed-websocket-9.0.16.jar
+2019-03-27 19:22:11,112 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.16/tomcat-embed-websocket-9.0.16.jar
+2019-03-27 19:22:11,417 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar
+2019-03-27 19:22:12,034 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar
+2019-03-27 19:22:12,338 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar
+2019-03-27 19:22:12,652 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar
+2019-03-27 19:22:12,952 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar
+2019-03-27 19:22:13,779 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar
+2019-03-27 19:22:14,080 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar
+2019-03-27 19:22:17,260 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar
+2019-03-27 19:22:17,561 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar
+2019-03-27 19:22:22,238 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar
+2019-03-27 19:22:22,582 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE.jar
+2019-03-27 19:22:23,202 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-expression/5.1.5.RELEASE/spring-expression-5.1.5.RELEASE.jar
+2019-03-27 19:22:23,501 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-test/2.1.3.RELEASE/spring-boot-starter-test-2.1.3.RELEASE.jar
+2019-03-27 19:22:23,818 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-starter-test/2.1.3.RELEASE/spring-boot-starter-test-2.1.3.RELEASE.jar
+2019-03-27 19:22:24,115 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.jar
+2019-03-27 19:22:24,630 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.jar
+2019-03-27 19:22:24,937 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.jar
+2019-03-27 19:22:25,555 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.jar
+2019-03-27 19:22:25,855 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+2019-03-27 19:22:28,013 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar
+2019-03-27 19:22:28,313 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+2019-03-27 19:22:28,626 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar
+2019-03-27 19:22:28,927 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar
+2019-03-27 19:22:29,755 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar
+2019-03-27 19:22:30,054 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE.jar
+2019-03-27 19:22:30,297 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-jcl/5.1.5.RELEASE/spring-jcl-5.1.5.RELEASE.jar
+2019-03-27 19:22:30,566 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.jar
+2019-03-27 19:22:31,039 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.jar
+2019-03-27 19:22:31,947 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dockerDemo/src/main/java
+2019-03-27 19:22:31,948 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dockerDemo/src/main/resources
+2019-03-27 19:22:31,950 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dockerDemo/src/main/resources
+2019-03-27 19:22:31,952 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dockerDemo/src/test/java
+2019-03-27 19:22:32,068 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 58 sec
+2019-03-27 19:23:36,414 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_161","java.vendor":"Oracle Corporation","os.name":"Mac OS X","os.arch":"x86_64","os.version":"10.14.4","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.7.3.M20180330-0640","projectCount":14,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.12.100.v20180210-1608"},{"symbolicName":"org.eclipse.m2e.core","version":"1.8.3.20180227-2137"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.1.1:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-site-plugin:3.6:site":[],"org.apache.maven.plugins:maven-site-plugin:3.7.1:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test":[],"org.apache.maven.plugins:maven-war-plugin:2.2:war":["configurator"],"org.apache.maven.plugins:maven-war-plugin:3.1.0:war":["configurator"]}}
+2019-03-27 19:24:36,735 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227) ~[na:na]
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240) ~[na:na]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210) ~[na:na]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:69) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_161]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_161]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_161]
+	at okio.Okio$2.read(Okio.java:138) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236) ~[na:na]
+	... 31 common frames omitted
+2019-03-27 19:28:02,768 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:dockerDemo:0.0.1-SNAPSHOT @ /Anant/workspace/DockerDemo/pom.xml.
+2019-03-27 19:28:03,191 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DockerDemo/src/main/java
+2019-03-27 19:28:03,191 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DockerDemo/src/main/resources
+2019-03-27 19:28:03,191 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DockerDemo/src/main/resources
+2019-03-27 19:28:03,192 [Worker-35] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DockerDemo/src/test/java
+2019-03-27 19:28:03,240 [Worker-35] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-03-27 19:29:52,376 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:DockerDemo:0.0.1-SNAPSHOT @ /Anant/workspace/DockerDemo/pom.xml.
+2019-03-27 19:29:53,062 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:29:53,067 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:29:53,082 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:29:53,084 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:29:53,084 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:29:57,343 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar
+2019-03-27 19:30:02,263 [Worker-35] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus1.ariba.com:8081/nexus/content/groups/build.snapshots/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar
+2019-03-27 19:30:02,278 [Worker-35] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.1.5.RELEASE
+2019-03-27 19:30:13,622 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:30:13,624 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:30:13,624 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:30:13,626 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:30:13,627 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:34:29,896 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:dockerDemo:0.0.1-SNAPSHOT @ /Anant/workspace/DockerDemo/pom.xml.
+2019-03-27 19:34:30,264 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:34:30,268 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:34:30,268 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:34:30,270 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:34:30,271 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:35:25,250 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/DockerDemo
+2019-03-27 19:35:25,256 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 19:35:30,472 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/DockerDemo
+2019-03-27 19:35:30,472 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 19:36:52,485 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:36:52,489 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:36:52,505 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:36:52,507 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:36:52,507 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:37:49,904 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:37:49,905 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:37:49,906 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:37:49,907 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:37:49,908 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:39:09,408 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:39:09,409 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:39:09,411 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:39:09,412 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:39:09,413 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:39:41,839 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/DockerDemo
+2019-03-27 19:39:41,840 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 19:39:47,588 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/DockerDemo
+2019-03-27 19:39:47,588 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 19:40:03,373 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:40:03,373 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:40:03,374 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:40:03,376 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:40:03,376 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:40:27,095 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/DockerDemo
+2019-03-27 19:40:27,095 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 19:40:31,873 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/DockerDemo
+2019-03-27 19:40:31,873 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 19:40:43,417 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:40:43,418 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:40:43,419 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:40:43,422 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:40:43,422 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:41:04,043 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:41:04,044 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:41:04,045 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:41:04,047 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:41:04,048 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 19:41:53,299 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:41:53,300 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 19:41:53,301 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 19:41:53,305 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 19:41:53,305 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/DockerDemo/src/test/resources
+2019-03-27 20:11:07,775 [Worker-45] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SpringApplication references non-existing project DockerDemo.
+org.eclipse.core.runtime.CoreException: Launch configuration SpringApplication references non-existing project DockerDemo.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+2019-03-27 20:11:07,777 [Worker-45] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SpringApplication references non-existing project DockerDemo.
+org.eclipse.core.runtime.CoreException: Launch configuration SpringApplication references non-existing project DockerDemo.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+2019-03-27 20:11:07,781 [Worker-45] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SpringApplication references non-existing project DockerDemo.
+org.eclipse.core.runtime.CoreException: Launch configuration SpringApplication references non-existing project DockerDemo.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+2019-03-27 20:11:07,784 [Worker-45] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration DockerDemoApplication references non-existing project DockerDemo.
+org.eclipse.core.runtime.CoreException: Launch configuration DockerDemoApplication references non-existing project DockerDemo.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+2019-03-27 20:11:07,785 [Worker-45] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration DockerDemoApplication references non-existing project DockerDemo.
+org.eclipse.core.runtime.CoreException: Launch configuration DockerDemoApplication references non-existing project DockerDemo.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+2019-03-27 20:11:07,788 [Worker-45] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration DockerDemoApplication references non-existing project DockerDemo.
+org.eclipse.core.runtime.CoreException: Launch configuration DockerDemoApplication references non-existing project DockerDemo.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580) ~[org.eclipse.jdt.launching_3.9.100.v20180323-1351.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.3.20180227-2137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+2019-03-27 20:17:18,384 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/dockerdemo
+2019-03-27 20:17:18,385 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 20:17:25,146 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/dockerdemo
+2019-03-27 20:17:25,146 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 20:48:10,753 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-27 21:00:05,233 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.kishore.anant:dockerdemo:0.0.1-SNAPSHOT @ /Anant/workspace/dockerdemo/pom.xml.
+2019-03-27 21:00:06,061 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:00:06,066 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 21:00:06,080 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 21:00:06,082 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:00:06,082 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/dockerdemo/src/test/resources
+2019-03-27 21:00:13,790 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/dockerdemo
+2019-03-27 21:00:13,791 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 21:00:20,748 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/dockerdemo
+2019-03-27 21:00:20,753 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 21:00:59,281 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:00:59,285 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 21:00:59,287 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 21:00:59,289 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:00:59,289 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/dockerdemo/src/test/resources
+2019-03-27 21:02:03,352 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/dockerdemo
+2019-03-27 21:02:03,352 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-03-27 21:02:15,149 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Anant/workspace/dockerdemo
+2019-03-27 21:02:15,149 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-03-27 21:08:17,385 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-27 21:12:10,294 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:12:10,299 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 21:12:10,310 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 21:12:10,312 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:12:10,313 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/dockerdemo/src/test/resources
+2019-03-27 21:13:25,025 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:13:25,029 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-27 21:13:25,030 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-27 21:13:25,031 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-27 21:13:25,031 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Anant/workspace/dockerdemo/src/test/resources
+2019-04-09 18:19:53,733 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-09 18:29:52,757 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_161","java.vendor":"Oracle Corporation","os.name":"Mac OS X","os.arch":"x86_64","os.version":"10.14.4","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.7.3.M20180330-0640","projectCount":14,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.12.100.v20180210-1608"},{"symbolicName":"org.eclipse.m2e.core","version":"1.8.3.20180227-2137"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.1.1:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-site-plugin:3.6:site":[],"org.apache.maven.plugins:maven-site-plugin:3.7.1:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test":[],"org.apache.maven.plugins:maven-war-plugin:2.2:war":["configurator"],"org.apache.maven.plugins:maven-war-plugin:3.1.0:war":["configurator"]}}
+2019-04-09 18:30:53,260 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227) ~[na:na]
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240) ~[na:na]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210) ~[na:na]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:69) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_161]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_161]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_161]
+	at okio.Okio$2.read(Okio.java:138) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236) ~[na:na]
+	... 31 common frames omitted
+2019-04-11 18:03:05,439 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-19 13:49:43,123 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-19 13:59:45,742 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_161","java.vendor":"Oracle Corporation","os.name":"Mac OS X","os.arch":"x86_64","os.version":"10.14.4","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.7.3.M20180330-0640","projectCount":14,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.12.100.v20180210-1608"},{"symbolicName":"org.eclipse.m2e.core","version":"1.8.3.20180227-2137"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.1.1:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-site-plugin:3.6:site":[],"org.apache.maven.plugins:maven-site-plugin:3.7.1:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test":[],"org.apache.maven.plugins:maven-war-plugin:2.2:war":["configurator"],"org.apache.maven.plugins:maven-war-plugin:3.1.0:war":["configurator"]}}
+2019-04-19 14:00:46,614 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227) ~[na:na]
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240) ~[na:na]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210) ~[na:na]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:69) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_161]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_161]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_161]
+	at okio.Okio$2.read(Okio.java:138) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236) ~[na:na]
+	... 31 common frames omitted
+2019-04-26 10:15:39,091 [Worker-184] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-26 10:34:12,361 [Worker-11] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-26 17:15:17,204 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_161","java.vendor":"Oracle Corporation","os.name":"Mac OS X","os.arch":"x86_64","os.version":"10.14.4","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.7.3.M20180330-0640","projectCount":14,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.12.100.v20180210-1608"},{"symbolicName":"org.eclipse.m2e.core","version":"1.8.3.20180227-2137"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean":[],"org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar":["configurator"],"org.apache.maven.plugins:maven-jar-plugin:3.1.1:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.1:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-site-plugin:3.6:site":[],"org.apache.maven.plugins:maven-site-plugin:3.7.1:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test":[],"org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test":[],"org.apache.maven.plugins:maven-war-plugin:2.2:war":["configurator"],"org.apache.maven.plugins:maven-war-plugin:3.1.0:war":["configurator"]}}
+2019-04-26 17:16:18,418 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: timeout
+	at okio.Okio$4.newTimeoutException(Okio.java:227) ~[na:na]
+	at okio.AsyncTimeout.exit(AsyncTimeout.java:284) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:240) ~[na:na]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:344) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:216) ~[na:na]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:210) ~[na:na]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.createTunnel(RealConnection.java:323) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectTunnel(RealConnection.java:197) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:145) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:192) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:185) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:69) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[aether-connector-okhttp-0.17.3.jar:0.17.3]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) [io.takari.stats.m2e_0.1.0.201506181201.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_161]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_161]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_161]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_161]
+	at okio.Okio$2.read(Okio.java:138) ~[na:na]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:236) ~[na:na]
+	... 31 common frames omitted
