@@ -1,0 +1,32 @@
+{
+	"name": "simplegraphapp",
+	"version": "1.0.0",
+	"description": "simple app to read data from excel and display in a graph on web ui",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm test",
+		"start": "nodemon app"
+	},
+	"keywords": [
+		"graph",
+		"excel",
+		"socket"
+	],
+	"author": "anakis01",
+	"license": "ISC",
+	"dependencies": {
+		"browserify": "^16.2.3",
+		"csvtojson": "^2.0.8",
+		"ejs": "^2.6.1",
+		"express": "^4.16.4",
+		"fast-csv": "^2.5.0",
+		"fs": "0.0.1-security",
+		"http": "0.0.0",
+		"http-browserify": "^1.7.0",
+		"https": "^1.0.0",
+		"https-browserify": "^1.0.0",
+		"nodemon": "^1.19.0",
+		"path": "^0.12.7",
+		"socket.io": "^2.2.0"
+	}
+}
